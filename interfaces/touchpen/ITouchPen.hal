@@ -1,0 +1,12 @@
+package vendor.surface.touchen@1.0
+
+enum DisplayState : int32_t {
+    LEFT,
+    RIGHT,
+    BOTH,
+    NONE
+}
+
+interface ITouchPen {
+    oneway setDisplayState(DisplayState state);
+}
