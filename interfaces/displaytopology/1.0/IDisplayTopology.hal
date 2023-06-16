@@ -15,4 +15,13 @@ interface IDisplayTopology {
     setComposition(DisplayComposition mode) generates (int32_t error);
 
     getComposition() generates (DisplayComposition mode);
+
+    enum RotationAngle : int32_t {
+        R0,
+        R90,
+        R180,
+        R270
+    };
+
+    onRotation(RotationAngle angle);
 };
