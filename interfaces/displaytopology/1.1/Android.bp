@@ -1,0 +1,11 @@
+hidl_interface {
+    name: "vendor.surface.displaytopology@1.1",
+    root: "vendor.surface",
+    srcs: [
+        "IDisplayTopology.hal",
+    ],
+    interfaces: [
+        "android.hidl.base@1.0",
+    ],
+    gen_java: true,
+}
