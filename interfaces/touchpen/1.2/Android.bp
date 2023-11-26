@@ -1,5 +1,5 @@
 hidl_interface {
-    name: "vendor.surface.touchpen@1.0",
+    name: "vendor.surface.touchpen@1.2",
     root: "vendor.surface",
     srcs: [
         "ITouchPen.hal",

@@ -1,21 +1,9 @@
 package vendor.surface.displaytopology@1.1;
 
-interface IDisplayTopology {
-    enum DisplayComposition : int32_t {
-        LEFT,
-        RIGHT,
-        COMPOUND,
-        SPLIT
-    };
+import @1.0::IDisplayTopology;
 
-    enum Error : int32_t {
-        BAD_PARAM = -1,
-    };
-
-    setComposition(DisplayComposition mode) generates (int32_t error);
-
-    getComposition() generates (DisplayComposition mode);
-
+interface IDisplayTopology extends @1.0::IDisplayTopology {
+    
     enum RotationAngle : int32_t {
         R0,
         R90,
