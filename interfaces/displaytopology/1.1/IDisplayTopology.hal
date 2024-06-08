@@ -1,0 +1,15 @@
+package vendor.surface.displaytopology@1.1;
+
+import @1.0::IDisplayTopology;
+
+interface IDisplayTopology extends @1.0::IDisplayTopology {
+    
+    enum RotationAngle : int32_t {
+        R0,
+        R90,
+        R180,
+        R270
+    };
+
+    onRotation(RotationAngle angle);
+};
