@@ -1,0 +1,14 @@
+package vendor.surface.touchpen@1.0;
+
+interface ITouchPen {    
+    enum DisplayState : int32_t {
+        LEFT,
+        RIGHT,
+        BOTH,
+        NONE
+    };
+
+    oneway setDisplayState(DisplayState state);
+
+    oneway hingeAngle(int32_t newAngle);
+};
