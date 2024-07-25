@@ -1,14 +1,7 @@
 package vendor.surface.touchpen@1.2;
 
-interface ITouchPen {    
-    enum DisplayState : int32_t {
-        LEFT,
-        RIGHT,
-        BOTH,
-        NONE
-    };
 
-    oneway setDisplayState(DisplayState state);
+import @1.1::ITouchPen;
 
-    oneway hingeAngle(int32_t newAngle);
+interface ITouchPen extends @1.1::ITouchPen {
 };
