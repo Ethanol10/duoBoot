@@ -1,0 +1,854 @@
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_hingeAngle(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_setDexterity(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_setInteractive(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_setSecurityKey(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_setBluetoothMac(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_setDisplayState(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_displayOrientation(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_sendPenTailReports(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_setTapToWakeEnable(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_registerPenCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_unregisterPenCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_registerDisplayTappedCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BnHwTouchPen::_hidl_unregisterDisplayTappedCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_hingeAngle(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, int)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_setDexterity(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, vendor::surface::touchpen::V1_0::Dexterity)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_setInteractive(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, bool)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_setSecurityKey(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::hardware::hidl_array<unsigned char, 8ul> const&)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_setBluetoothMac(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::hardware::hidl_array<unsigned char, 6ul> const&, vendor::surface::touchpen::V1_0::BluetoothAddressType)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_setDisplayState(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, vendor::surface::touchpen::V1_0::DisplayState)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_displayOrientation(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, int)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_sendPenTailReports(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::hardware::hidl_array<unsigned char, 2ul> const&)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_setTapToWakeEnable(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, bool)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_registerPenCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::touchpen::V1_0::IPenCallback> const&)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_unregisterPenCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::touchpen::V1_0::IPenCallback> const&)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_registerDisplayTappedCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::touchpen::V1_0::IDisplayTappedCallback> const&)
+                 U vendor::surface::touchpen::V1_0::BpHwTouchPen::_hidl_unregisterDisplayTappedCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::touchpen::V1_0::IDisplayTappedCallback> const&)
+                 U vendor::surface::touchpen::V1_0::IPenCallback::descriptor
+                 U vendor::surface::touchpen::V1_0::IPenCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_0::IPenCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_0::IPenCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_0::IPenCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_0::IPenCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_0::IPenCallback::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_0::IPenCallback::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_0::IPenCallback::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_0::IPenCallback::ping()
+                 U vendor::surface::touchpen::V1_0::IPenCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_0::BnHwPenCallback::_hidl_notifyPenDetected(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BpHwPenCallback::_hidl_notifyPenDetected(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::hardware::hidl_array<unsigned char, 6ul> const&, vendor::surface::touchpen::V1_0::BluetoothAddressType)
+                 U vendor::surface::touchpen::V1_0::IDisplayTappedCallback::descriptor
+                 U vendor::surface::touchpen::V1_0::IDisplayTappedCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_0::IDisplayTappedCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_0::IDisplayTappedCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_0::IDisplayTappedCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_0::IDisplayTappedCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_0::IDisplayTappedCallback::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_0::IDisplayTappedCallback::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_0::IDisplayTappedCallback::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_0::IDisplayTappedCallback::ping()
+                 U vendor::surface::touchpen::V1_0::IDisplayTappedCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_0::BnHwDisplayTappedCallback::_hidl_notifyTapToWake(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_0::BpHwDisplayTappedCallback::_hidl_notifyTapToWake(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, vendor::surface::touchpen::V1_0::DisplayTapped)
+                 U vendor::surface::touchpen::V1_0::ITouchPen::descriptor
+                 U vendor::surface::touchpen::V1_0::ITouchPen::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_0::ITouchPen::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_0::ITouchPen::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_0::ITouchPen::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_0::ITouchPen::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_0::ITouchPen::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_0::ITouchPen::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_0::ITouchPen::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_0::ITouchPen::ping()
+                 U vendor::surface::touchpen::V1_0::ITouchPen::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_1::BnHwTouchPen::_hidl_setOobBlePairingTK(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_1::BnHwTouchPen::_hidl_getFeatureAutoBondCapability(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_1::BnHwTouchPen::_hidl_setFeatureAutoBondCapability(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_1::BnHwTouchPen::_hidl_registerFirstPenContactCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_1::BnHwTouchPen::_hidl_unregisterFirstPenContactCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_1::BnHwTouchPen::_hidl_registerHidAutoBondInputReportCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_1::BnHwTouchPen::_hidl_unregisterHidAutoBondInputReportCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_1::BpHwTouchPen::_hidl_setOobBlePairingTK(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::hardware::hidl_array<unsigned char, 4ul> const&, android::hardware::hidl_array<unsigned char, 6ul> const&, vendor::surface::touchpen::V1_0::BluetoothAddressType, android::hardware::hidl_array<unsigned char, 16ul> const&)
+                 U vendor::surface::touchpen::V1_1::BpHwTouchPen::_hidl_getFeatureAutoBondCapability(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, vendor::surface::touchpen::V1_1::FeatureAutoBondCapability)
+                 U vendor::surface::touchpen::V1_1::BpHwTouchPen::_hidl_setFeatureAutoBondCapability(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, vendor::surface::touchpen::V1_1::FeatureAutoBondCapability)
+                 U vendor::surface::touchpen::V1_1::BpHwTouchPen::_hidl_registerFirstPenContactCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::touchpen::V1_1::IFirstPenContactCallback> const&)
+                 U vendor::surface::touchpen::V1_1::BpHwTouchPen::_hidl_unregisterFirstPenContactCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::touchpen::V1_1::IFirstPenContactCallback> const&)
+                 U vendor::surface::touchpen::V1_1::BpHwTouchPen::_hidl_registerHidAutoBondInputReportCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback> const&)
+                 U vendor::surface::touchpen::V1_1::BpHwTouchPen::_hidl_unregisterHidAutoBondInputReportCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback> const&)
+                 U vendor::surface::touchpen::V1_1::IPenCallback::descriptor
+                 U vendor::surface::touchpen::V1_1::IPenCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_1::IPenCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_1::IPenCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_1::IPenCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_1::IPenCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_1::IPenCallback::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_1::IPenCallback::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_1::IPenCallback::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_1::IPenCallback::ping()
+                 U vendor::surface::touchpen::V1_1::IPenCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_1::IDisplayTappedCallback::descriptor
+                 U vendor::surface::touchpen::V1_1::IDisplayTappedCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_1::IDisplayTappedCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_1::IDisplayTappedCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_1::IDisplayTappedCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_1::IDisplayTappedCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_1::IDisplayTappedCallback::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_1::IDisplayTappedCallback::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_1::IDisplayTappedCallback::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_1::IDisplayTappedCallback::ping()
+                 U vendor::surface::touchpen::V1_1::IDisplayTappedCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_1::IFirstPenContactCallback::descriptor
+                 U vendor::surface::touchpen::V1_1::IFirstPenContactCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_1::IFirstPenContactCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_1::IFirstPenContactCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_1::IFirstPenContactCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_1::IFirstPenContactCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_1::IFirstPenContactCallback::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_1::IFirstPenContactCallback::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_1::IFirstPenContactCallback::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_1::IFirstPenContactCallback::ping()
+                 U vendor::surface::touchpen::V1_1::IFirstPenContactCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_1::BnHwFirstPenContactCallback::_hidl_notifyFirstPenContactDetected(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_1::BpHwFirstPenContactCallback::_hidl_notifyFirstPenContactDetected(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*)
+                 U vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback::descriptor
+                 U vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback::ping()
+                 U vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_1::BnHwHidAutoBondInputReportCallback::_hidl_notifyAutoBondDeviceInRange(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_1::BnHwHidAutoBondInputReportCallback::_hidl_notifyFeatureABCapabilityInputReport(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_1::BpHwHidAutoBondInputReportCallback::_hidl_notifyAutoBondDeviceInRange(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::hardware::hidl_array<unsigned char, 4ul> const&, android::hardware::hidl_array<unsigned char, 6ul> const&, vendor::surface::touchpen::V1_1::AutoBondDeviceInRangeInfo)
+                 U vendor::surface::touchpen::V1_1::BpHwHidAutoBondInputReportCallback::_hidl_notifyFeatureABCapabilityInputReport(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, vendor::surface::touchpen::V1_1::FeatureAutoBondCapability)
+                 U vendor::surface::touchpen::V1_1::ITouchPen::descriptor
+                 U vendor::surface::touchpen::V1_1::ITouchPen::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_1::ITouchPen::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_1::ITouchPen::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_1::ITouchPen::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_1::ITouchPen::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_1::ITouchPen::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_1::ITouchPen::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_1::ITouchPen::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_1::ITouchPen::ping()
+                 U vendor::surface::touchpen::V1_1::ITouchPen::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::BnHwTouchPen::_hidl_registerPenTypeCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_2::BnHwTouchPen::_hidl_unregisterPenTypeCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_2::BpHwTouchPen::_hidl_registerPenTypeCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::touchpen::V1_2::IPenTypeCallback> const&)
+                 U vendor::surface::touchpen::V1_2::BpHwTouchPen::_hidl_unregisterPenTypeCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::touchpen::V1_2::IPenTypeCallback> const&)
+                 U vendor::surface::touchpen::V1_2::IPenCallback::descriptor
+                 U vendor::surface::touchpen::V1_2::IPenCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_2::IPenCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_2::IPenCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_2::IPenCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_2::IPenCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::IPenCallback::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_2::IPenCallback::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_2::IPenCallback::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_2::IPenCallback::ping()
+                 U vendor::surface::touchpen::V1_2::IPenCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::IPenTypeCallback::descriptor
+                 U vendor::surface::touchpen::V1_2::IPenTypeCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_2::IPenTypeCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_2::IPenTypeCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_2::IPenTypeCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_2::IPenTypeCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::IPenTypeCallback::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_2::IPenTypeCallback::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_2::IPenTypeCallback::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_2::IPenTypeCallback::ping()
+                 U vendor::surface::touchpen::V1_2::IPenTypeCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::BnHwPenTypeCallback::_hidl_notifyPenTypeDetected(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::surface::touchpen::V1_2::BpHwPenTypeCallback::_hidl_notifyPenTypeDetected(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, string)
+                 U vendor::surface::touchpen::V1_2::IDisplayTappedCallback::descriptor
+                 U vendor::surface::touchpen::V1_2::IDisplayTappedCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_2::IDisplayTappedCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_2::IDisplayTappedCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_2::IDisplayTappedCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_2::IDisplayTappedCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::IDisplayTappedCallback::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_2::IDisplayTappedCallback::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_2::IDisplayTappedCallback::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_2::IDisplayTappedCallback::ping()
+                 U vendor::surface::touchpen::V1_2::IDisplayTappedCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::IFirstPenContactCallback::descriptor
+                 U vendor::surface::touchpen::V1_2::IFirstPenContactCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_2::IFirstPenContactCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_2::IFirstPenContactCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_2::IFirstPenContactCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_2::IFirstPenContactCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::IFirstPenContactCallback::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_2::IFirstPenContactCallback::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_2::IFirstPenContactCallback::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_2::IFirstPenContactCallback::ping()
+                 U vendor::surface::touchpen::V1_2::IFirstPenContactCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback::descriptor
+                 U vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback::ping()
+                 U vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::ITouchPen::descriptor
+                 U vendor::surface::touchpen::V1_2::ITouchPen::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::surface::touchpen::V1_2::ITouchPen::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::surface::touchpen::V1_2::ITouchPen::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::surface::touchpen::V1_2::ITouchPen::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::surface::touchpen::V1_2::ITouchPen::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::surface::touchpen::V1_2::ITouchPen::interfaceDescriptor() generates (string)
+                 U vendor::surface::touchpen::V1_2::ITouchPen::notifySyspropsChanged()
+                 U vendor::surface::touchpen::V1_2::ITouchPen::setHALInstrumentation()
+                 U vendor::surface::touchpen::V1_2::ITouchPen::ping()
+                 U vendor::surface::touchpen::V1_2::ITouchPen::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+00000000000449bc T vendor::surface::touchpen::V1_3::BsTouchPen::addOnewayTask() generates ()
+0000000000044868 T vendor::surface::touchpen::V1_3::BsTouchPen::BsTouchPen(android::sp<vendor::surface::touchpen::V1_3::ITouchPen>)
+00000000000446bc T vendor::surface::touchpen::V1_3::BsTouchPen::BsTouchPen(android::sp<vendor::surface::touchpen::V1_3::ITouchPen>)
+0000000000043c2c T vendor::surface::touchpen::V1_3::BnHwTouchPen::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+0000000000043b88 T vendor::surface::touchpen::V1_3::BnHwTouchPen::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+0000000000043a1c T vendor::surface::touchpen::V1_3::BnHwTouchPen::_hidl_notifyBleConnectionStateChange(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+0000000000043b78 T vendor::surface::touchpen::V1_3::BnHwTouchPen::ping()
+0000000000043588 T vendor::surface::touchpen::V1_3::BnHwTouchPen::BnHwTouchPen(android::sp<vendor::surface::touchpen::V1_3::ITouchPen> const&)
+0000000000043330 T vendor::surface::touchpen::V1_3::BnHwTouchPen::BnHwTouchPen(android::sp<vendor::surface::touchpen::V1_3::ITouchPen> const&)
+000000000004396c T vendor::surface::touchpen::V1_3::BnHwTouchPen::~BnHwTouchPen()
+00000000000438d8 T vendor::surface::touchpen::V1_3::BnHwTouchPen::~BnHwTouchPen()
+00000000000437e8 T vendor::surface::touchpen::V1_3::BnHwTouchPen::~BnHwTouchPen()
+000000000004291c T vendor::surface::touchpen::V1_3::BpHwTouchPen::hingeAngle(int)
+0000000000042dd8 T vendor::surface::touchpen::V1_3::BpHwTouchPen::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+0000000000042fec T vendor::surface::touchpen::V1_3::BpHwTouchPen::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+0000000000042ccc T vendor::surface::touchpen::V1_3::BpHwTouchPen::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+00000000000427f0 T vendor::surface::touchpen::V1_3::BpHwTouchPen::setDexterity(vendor::surface::touchpen::V1_0::Dexterity)
+00000000000430f8 T vendor::surface::touchpen::V1_3::BpHwTouchPen::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+0000000000042ac8 T vendor::surface::touchpen::V1_3::BpHwTouchPen::interfaceChain() generates (vec<android::hardware::hidl_string>)
+0000000000042834 T vendor::surface::touchpen::V1_3::BpHwTouchPen::setInteractive(bool)
+00000000000428d8 T vendor::surface::touchpen::V1_3::BpHwTouchPen::setSecurityKey(android::hardware::hidl_array<unsigned char, 8ul> const&)
+0000000000042400 T vendor::surface::touchpen::V1_3::BpHwTouchPen::onLastStrongRef(void const*)
+00000000000428f8 T vendor::surface::touchpen::V1_3::BpHwTouchPen::setBluetoothMac(android::hardware::hidl_array<unsigned char, 6ul> const&, vendor::surface::touchpen::V1_0::BluetoothAddressType)
+00000000000427d0 T vendor::surface::touchpen::V1_3::BpHwTouchPen::setDisplayState(vendor::surface::touchpen::V1_0::DisplayState)
+0000000000042878 T vendor::surface::touchpen::V1_3::BpHwTouchPen::displayOrientation(int)
+0000000000042858 T vendor::surface::touchpen::V1_3::BpHwTouchPen::sendPenTailReports(android::hardware::hidl_array<unsigned char, 2ul> const&)
+00000000000429bc T vendor::surface::touchpen::V1_3::BpHwTouchPen::setOobBlePairingTK(android::hardware::hidl_array<unsigned char, 4ul> const&, android::hardware::hidl_array<unsigned char, 6ul> const&, vendor::surface::touchpen::V1_0::BluetoothAddressType, android::hardware::hidl_array<unsigned char, 16ul> const&)
+0000000000042810 T vendor::surface::touchpen::V1_3::BpHwTouchPen::setTapToWakeEnable(bool)
+0000000000042bdc T vendor::surface::touchpen::V1_3::BpHwTouchPen::interfaceDescriptor() generates (string)
+000000000004293c T vendor::surface::touchpen::V1_3::BpHwTouchPen::registerPenCallback(android::sp<vendor::surface::touchpen::V1_0::IPenCallback> const&)
+00000000000430dc T vendor::surface::touchpen::V1_3::BpHwTouchPen::notifySyspropsChanged()
+0000000000042dbc T vendor::surface::touchpen::V1_3::BpHwTouchPen::setHALInstrumentation()
+000000000004295c T vendor::surface::touchpen::V1_3::BpHwTouchPen::unregisterPenCallback(android::sp<vendor::surface::touchpen::V1_0::IPenCallback> const&)
+0000000000042a68 T vendor::surface::touchpen::V1_3::BpHwTouchPen::registerPenTypeCallback(android::sp<vendor::surface::touchpen::V1_2::IPenTypeCallback> const&)
+0000000000042a88 T vendor::surface::touchpen::V1_3::BpHwTouchPen::unregisterPenTypeCallback(android::sp<vendor::surface::touchpen::V1_2::IPenTypeCallback> const&)
+000000000004297c T vendor::surface::touchpen::V1_3::BpHwTouchPen::getFeatureAutoBondCapability(vendor::surface::touchpen::V1_1::FeatureAutoBondCapability)
+000000000004299c T vendor::surface::touchpen::V1_3::BpHwTouchPen::setFeatureAutoBondCapability(vendor::surface::touchpen::V1_1::FeatureAutoBondCapability)
+0000000000042898 T vendor::surface::touchpen::V1_3::BpHwTouchPen::registerDisplayTappedCallback(android::sp<vendor::surface::touchpen::V1_0::IDisplayTappedCallback> const&)
+0000000000042aa8 T vendor::surface::touchpen::V1_3::BpHwTouchPen::notifyBleConnectionStateChange(bool, bool)
+00000000000429e8 T vendor::surface::touchpen::V1_3::BpHwTouchPen::registerFirstPenContactCallback(android::sp<vendor::surface::touchpen::V1_1::IFirstPenContactCallback> const&)
+00000000000428b8 T vendor::surface::touchpen::V1_3::BpHwTouchPen::unregisterDisplayTappedCallback(android::sp<vendor::surface::touchpen::V1_0::IDisplayTappedCallback> const&)
+0000000000042a08 T vendor::surface::touchpen::V1_3::BpHwTouchPen::unregisterFirstPenContactCallback(android::sp<vendor::surface::touchpen::V1_1::IFirstPenContactCallback> const&)
+00000000000425c8 T vendor::surface::touchpen::V1_3::BpHwTouchPen::_hidl_notifyBleConnectionStateChange(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, bool, bool)
+0000000000042a28 T vendor::surface::touchpen::V1_3::BpHwTouchPen::registerHidAutoBondInputReportCallback(android::sp<vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback> const&)
+0000000000042a48 T vendor::surface::touchpen::V1_3::BpHwTouchPen::unregisterHidAutoBondInputReportCallback(android::sp<vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback> const&)
+0000000000042fd0 T vendor::surface::touchpen::V1_3::BpHwTouchPen::ping()
+0000000000042bb8 T vendor::surface::touchpen::V1_3::BpHwTouchPen::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+0000000000042268 T vendor::surface::touchpen::V1_3::BpHwTouchPen::BpHwTouchPen(android::sp<android::hardware::IBinder> const&)
+0000000000042098 T vendor::surface::touchpen::V1_3::BpHwTouchPen::BpHwTouchPen(android::sp<android::hardware::IBinder> const&)
+0000000000055ef8 D vendor::surface::touchpen::V1_3::IPenCallback::descriptor
+000000000003682c T vendor::surface::touchpen::V1_3::IPenCallback::getService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+0000000000033d08 T vendor::surface::touchpen::V1_3::IPenCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+0000000000033d38 T vendor::surface::touchpen::V1_3::IPenCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+0000000000033bf8 T vendor::surface::touchpen::V1_3::IPenCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+00000000000365b0 T vendor::surface::touchpen::V1_3::IPenCallback::tryGetService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+0000000000033de8 T vendor::surface::touchpen::V1_3::IPenCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+00000000000339c8 T vendor::surface::touchpen::V1_3::IPenCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+0000000000036838 T vendor::surface::touchpen::V1_3::IPenCallback::registerAsService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000000000033b64 T vendor::surface::touchpen::V1_3::IPenCallback::interfaceDescriptor() generates (string)
+0000000000033dbc T vendor::surface::touchpen::V1_3::IPenCallback::notifySyspropsChanged()
+0000000000033cf8 T vendor::surface::touchpen::V1_3::IPenCallback::setHALInstrumentation()
+00000000000368e4 T vendor::surface::touchpen::V1_3::IPenCallback::registerForNotifications(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, android::sp<android::hidl::manager::V1_0::IServiceNotification> const&)
+0000000000033d28 T vendor::surface::touchpen::V1_3::IPenCallback::ping()
+0000000000033b54 T vendor::surface::touchpen::V1_3::IPenCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+00000000000344b0 T vendor::surface::touchpen::V1_3::IPenCallback::castFrom(android::sp<vendor::surface::touchpen::V1_0::IPenCallback> const&, bool)
+00000000000341bc T vendor::surface::touchpen::V1_3::IPenCallback::castFrom(android::sp<vendor::surface::touchpen::V1_1::IPenCallback> const&, bool)
+0000000000033ec8 T vendor::surface::touchpen::V1_3::IPenCallback::castFrom(android::sp<vendor::surface::touchpen::V1_2::IPenCallback> const&, bool)
+00000000000347a4 T vendor::surface::touchpen::V1_3::IPenCallback::castFrom(android::sp<android::hidl::base::V1_0::IBase> const&, bool)
+0000000000033e08 T vendor::surface::touchpen::V1_3::IPenCallback::castFrom(android::sp<vendor::surface::touchpen::V1_3::IPenCallback> const&, bool)
+00000000000364fc T vendor::surface::touchpen::V1_3::BsPenCallback::addOnewayTask() generates ()
+00000000000363a0 T vendor::surface::touchpen::V1_3::BsPenCallback::BsPenCallback(android::sp<vendor::surface::touchpen::V1_3::IPenCallback>)
+00000000000361ec T vendor::surface::touchpen::V1_3::BsPenCallback::BsPenCallback(android::sp<vendor::surface::touchpen::V1_3::IPenCallback>)
+0000000000036014 T vendor::surface::touchpen::V1_3::BnHwPenCallback::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+0000000000035f70 T vendor::surface::touchpen::V1_3::BnHwPenCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+0000000000035f60 T vendor::surface::touchpen::V1_3::BnHwPenCallback::ping()
+0000000000035ac4 T vendor::surface::touchpen::V1_3::BnHwPenCallback::BnHwPenCallback(android::sp<vendor::surface::touchpen::V1_3::IPenCallback> const&)
+0000000000035864 T vendor::surface::touchpen::V1_3::BnHwPenCallback::BnHwPenCallback(android::sp<vendor::surface::touchpen::V1_3::IPenCallback> const&)
+0000000000035eb0 T vendor::surface::touchpen::V1_3::BnHwPenCallback::~BnHwPenCallback()
+0000000000035e1c T vendor::surface::touchpen::V1_3::BnHwPenCallback::~BnHwPenCallback()
+0000000000035d2c T vendor::surface::touchpen::V1_3::BnHwPenCallback::~BnHwPenCallback()
+000000000003530c T vendor::surface::touchpen::V1_3::BpHwPenCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+0000000000035520 T vendor::surface::touchpen::V1_3::BpHwPenCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+0000000000035200 T vendor::surface::touchpen::V1_3::BpHwPenCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+000000000003562c T vendor::surface::touchpen::V1_3::BpHwPenCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+0000000000034ffc T vendor::surface::touchpen::V1_3::BpHwPenCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+0000000000034e10 T vendor::surface::touchpen::V1_3::BpHwPenCallback::onLastStrongRef(void const*)
+0000000000034fd8 T vendor::surface::touchpen::V1_3::BpHwPenCallback::notifyPenDetected(android::hardware::hidl_array<unsigned char, 6ul> const&, vendor::surface::touchpen::V1_0::BluetoothAddressType)
+0000000000035110 T vendor::surface::touchpen::V1_3::BpHwPenCallback::interfaceDescriptor() generates (string)
+0000000000035610 T vendor::surface::touchpen::V1_3::BpHwPenCallback::notifySyspropsChanged()
+00000000000352f0 T vendor::surface::touchpen::V1_3::BpHwPenCallback::setHALInstrumentation()
+0000000000035504 T vendor::surface::touchpen::V1_3::BpHwPenCallback::ping()
+00000000000350ec T vendor::surface::touchpen::V1_3::BpHwPenCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+0000000000034c70 T vendor::surface::touchpen::V1_3::BpHwPenCallback::BpHwPenCallback(android::sp<android::hardware::IBinder> const&)
+0000000000034a98 T vendor::surface::touchpen::V1_3::BpHwPenCallback::BpHwPenCallback(android::sp<android::hardware::IBinder> const&)
+0000000000055f00 D vendor::surface::touchpen::V1_3::IPenTypeCallback::descriptor
+000000000003aa94 T vendor::surface::touchpen::V1_3::IPenTypeCallback::getService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+00000000000385e4 T vendor::surface::touchpen::V1_3::IPenTypeCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+0000000000038614 T vendor::surface::touchpen::V1_3::IPenTypeCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+00000000000384fc T vendor::surface::touchpen::V1_3::IPenTypeCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+000000000003a818 T vendor::surface::touchpen::V1_3::IPenTypeCallback::tryGetService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+00000000000386c4 T vendor::surface::touchpen::V1_3::IPenTypeCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+0000000000038314 T vendor::surface::touchpen::V1_3::IPenTypeCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+000000000003aaa0 T vendor::surface::touchpen::V1_3::IPenTypeCallback::registerAsService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000000000038468 T vendor::surface::touchpen::V1_3::IPenTypeCallback::interfaceDescriptor() generates (string)
+0000000000038698 T vendor::surface::touchpen::V1_3::IPenTypeCallback::notifySyspropsChanged()
+00000000000385d4 T vendor::surface::touchpen::V1_3::IPenTypeCallback::setHALInstrumentation()
+000000000003ab4c T vendor::surface::touchpen::V1_3::IPenTypeCallback::registerForNotifications(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, android::sp<android::hidl::manager::V1_0::IServiceNotification> const&)
+0000000000038604 T vendor::surface::touchpen::V1_3::IPenTypeCallback::ping()
+0000000000038458 T vendor::surface::touchpen::V1_3::IPenTypeCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+00000000000387a4 T vendor::surface::touchpen::V1_3::IPenTypeCallback::castFrom(android::sp<vendor::surface::touchpen::V1_2::IPenTypeCallback> const&, bool)
+0000000000038a98 T vendor::surface::touchpen::V1_3::IPenTypeCallback::castFrom(android::sp<android::hidl::base::V1_0::IBase> const&, bool)
+00000000000386e4 T vendor::surface::touchpen::V1_3::IPenTypeCallback::castFrom(android::sp<vendor::surface::touchpen::V1_3::IPenTypeCallback> const&, bool)
+000000000003a764 T vendor::surface::touchpen::V1_3::BsPenTypeCallback::addOnewayTask() generates ()
+000000000003a60c T vendor::surface::touchpen::V1_3::BsPenTypeCallback::BsPenTypeCallback(android::sp<vendor::surface::touchpen::V1_3::IPenTypeCallback>)
+000000000003a48c T vendor::surface::touchpen::V1_3::BsPenTypeCallback::BsPenTypeCallback(android::sp<vendor::surface::touchpen::V1_3::IPenTypeCallback>)
+000000000003a2b4 T vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+000000000003a210 T vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000003a200 T vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::ping()
+0000000000039d70 T vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::BnHwPenTypeCallback(android::sp<vendor::surface::touchpen::V1_3::IPenTypeCallback> const&)
+0000000000039b1c T vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::BnHwPenTypeCallback(android::sp<vendor::surface::touchpen::V1_3::IPenTypeCallback> const&)
+000000000003a150 T vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::~BnHwPenTypeCallback()
+000000000003a0bc T vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::~BnHwPenTypeCallback()
+0000000000039fcc T vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::~BnHwPenTypeCallback()
+00000000000395c4 T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+00000000000397d8 T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+00000000000394b8 T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+00000000000398e4 T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+00000000000392b4 T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+00000000000390cc T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::onLastStrongRef(void const*)
+00000000000393c8 T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::interfaceDescriptor() generates (string)
+0000000000039294 T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::notifyPenTypeDetected(string)
+00000000000398c8 T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::notifySyspropsChanged()
+00000000000395a8 T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::setHALInstrumentation()
+00000000000397bc T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::ping()
+00000000000393a4 T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+0000000000038f38 T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::BpHwPenTypeCallback(android::sp<android::hardware::IBinder> const&)
+0000000000038d8c T vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::BpHwPenTypeCallback(android::sp<android::hardware::IBinder> const&)
+0000000000055ee8 D vendor::surface::touchpen::V1_3::IDisplayTappedCallback::descriptor
+000000000002c704 T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::getService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+0000000000029b0c T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+0000000000029b3c T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+0000000000029924 T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+000000000002c488 T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::tryGetService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+0000000000029bec T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+00000000000296f4 T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+000000000002c710 T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::registerAsService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000000000029890 T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::interfaceDescriptor() generates (string)
+0000000000029bc0 T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::notifySyspropsChanged()
+0000000000029afc T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::setHALInstrumentation()
+000000000002c7bc T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::registerForNotifications(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, android::sp<android::hidl::manager::V1_0::IServiceNotification> const&)
+0000000000029b2c T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::ping()
+0000000000029880 T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+000000000002a2b4 T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::castFrom(android::sp<vendor::surface::touchpen::V1_0::IDisplayTappedCallback> const&, bool)
+0000000000029fc0 T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::castFrom(android::sp<vendor::surface::touchpen::V1_1::IDisplayTappedCallback> const&, bool)
+0000000000029ccc T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::castFrom(android::sp<vendor::surface::touchpen::V1_2::IDisplayTappedCallback> const&, bool)
+000000000002a5a8 T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::castFrom(android::sp<android::hidl::base::V1_0::IBase> const&, bool)
+0000000000029c0c T vendor::surface::touchpen::V1_3::IDisplayTappedCallback::castFrom(android::sp<vendor::surface::touchpen::V1_3::IDisplayTappedCallback> const&, bool)
+000000000002c3d4 T vendor::surface::touchpen::V1_3::BsDisplayTappedCallback::addOnewayTask() generates ()
+000000000002c284 T vendor::surface::touchpen::V1_3::BsDisplayTappedCallback::BsDisplayTappedCallback(android::sp<vendor::surface::touchpen::V1_3::IDisplayTappedCallback>)
+000000000002c0dc T vendor::surface::touchpen::V1_3::BsDisplayTappedCallback::BsDisplayTappedCallback(android::sp<vendor::surface::touchpen::V1_3::IDisplayTappedCallback>)
+0000000000055ef0 D vendor::surface::touchpen::V1_3::IFirstPenContactCallback::descriptor
+0000000000031f5c T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::getService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+000000000002f744 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+000000000002f774 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000002f648 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+0000000000031ce0 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::tryGetService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+000000000002f824 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+000000000002f438 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+0000000000031f68 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::registerAsService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000000000002f5b4 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::interfaceDescriptor() generates (string)
+000000000002f7f8 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::notifySyspropsChanged()
+000000000002f734 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::setHALInstrumentation()
+0000000000032014 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::registerForNotifications(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, android::sp<android::hidl::manager::V1_0::IServiceNotification> const&)
+000000000002f764 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::ping()
+000000000002f5a4 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+000000000002fbf8 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::castFrom(android::sp<vendor::surface::touchpen::V1_1::IFirstPenContactCallback> const&, bool)
+000000000002f904 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::castFrom(android::sp<vendor::surface::touchpen::V1_2::IFirstPenContactCallback> const&, bool)
+000000000002feec T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::castFrom(android::sp<android::hidl::base::V1_0::IBase> const&, bool)
+000000000002f844 T vendor::surface::touchpen::V1_3::IFirstPenContactCallback::castFrom(android::sp<vendor::surface::touchpen::V1_3::IFirstPenContactCallback> const&, bool)
+000000000002bf04 T vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+000000000002be60 T vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000002be50 T vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::ping()
+000000000002b8a0 T vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::BnHwDisplayTappedCallback(android::sp<vendor::surface::touchpen::V1_3::IDisplayTappedCallback> const&)
+000000000002b64c T vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::BnHwDisplayTappedCallback(android::sp<vendor::surface::touchpen::V1_3::IDisplayTappedCallback> const&)
+000000000002bda0 T vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::~BnHwDisplayTappedCallback()
+000000000002bd0c T vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::~BnHwDisplayTappedCallback()
+000000000002bafc T vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::~BnHwDisplayTappedCallback()
+000000000002b0f4 T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+000000000002b308 T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000002afe8 T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+000000000002b414 T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+000000000002ade4 T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+000000000002adc4 T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::notifyTapToWake(vendor::surface::touchpen::V1_0::DisplayTapped)
+000000000002abfc T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::onLastStrongRef(void const*)
+000000000002aef8 T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::interfaceDescriptor() generates (string)
+000000000002b3f8 T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::notifySyspropsChanged()
+000000000002b0d8 T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::setHALInstrumentation()
+000000000002b2ec T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::ping()
+000000000002aed4 T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+000000000002aa68 T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::BpHwDisplayTappedCallback(android::sp<android::hardware::IBinder> const&)
+000000000002a89c T vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::BpHwDisplayTappedCallback(android::sp<android::hardware::IBinder> const&)
+0000000000031c2c T vendor::surface::touchpen::V1_3::BsFirstPenContactCallback::addOnewayTask() generates ()
+0000000000031acc T vendor::surface::touchpen::V1_3::BsFirstPenContactCallback::BsFirstPenContactCallback(android::sp<vendor::surface::touchpen::V1_3::IFirstPenContactCallback>)
+0000000000031928 T vendor::surface::touchpen::V1_3::BsFirstPenContactCallback::BsFirstPenContactCallback(android::sp<vendor::surface::touchpen::V1_3::IFirstPenContactCallback>)
+0000000000031750 T vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+00000000000316ac T vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000003169c T vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::ping()
+00000000000311fc T vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::BnHwFirstPenContactCallback(android::sp<vendor::surface::touchpen::V1_3::IFirstPenContactCallback> const&)
+0000000000030f98 T vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::BnHwFirstPenContactCallback(android::sp<vendor::surface::touchpen::V1_3::IFirstPenContactCallback> const&)
+00000000000315ec T vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::~BnHwFirstPenContactCallback()
+0000000000031558 T vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::~BnHwFirstPenContactCallback()
+0000000000031468 T vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::~BnHwFirstPenContactCallback()
+0000000000030a40 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+0000000000030c54 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+0000000000030934 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+0000000000030d60 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+0000000000030730 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+000000000003054c T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::onLastStrongRef(void const*)
+0000000000030844 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::interfaceDescriptor() generates (string)
+0000000000030d44 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::notifySyspropsChanged()
+0000000000030a24 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::setHALInstrumentation()
+0000000000030714 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::notifyFirstPenContactDetected()
+0000000000030c38 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::ping()
+0000000000030820 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+00000000000303a8 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::BpHwFirstPenContactCallback(android::sp<android::hardware::IBinder> const&)
+00000000000301e0 T vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::BpHwFirstPenContactCallback(android::sp<android::hardware::IBinder> const&)
+0000000000055f08 D vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::descriptor
+000000000003f1dc T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::getService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+000000000003c92c T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+000000000003c95c T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000003c830 T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+000000000003ef60 T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::tryGetService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+000000000003ca0c T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+000000000003c620 T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+000000000003f1e8 T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::registerAsService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000000000003c79c T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::interfaceDescriptor() generates (string)
+000000000003c9e0 T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::notifySyspropsChanged()
+000000000003c91c T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::setHALInstrumentation()
+000000000003f294 T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::registerForNotifications(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, android::sp<android::hidl::manager::V1_0::IServiceNotification> const&)
+000000000003c94c T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::ping()
+000000000003c78c T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+000000000003cde0 T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::castFrom(android::sp<vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback> const&, bool)
+000000000003caec T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::castFrom(android::sp<vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback> const&, bool)
+000000000003d0d4 T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::castFrom(android::sp<android::hidl::base::V1_0::IBase> const&, bool)
+000000000003ca2c T vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback::castFrom(android::sp<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback> const&, bool)
+000000000003eeac T vendor::surface::touchpen::V1_3::BsHidAutoBondInputReportCallback::addOnewayTask() generates ()
+000000000003ed4c T vendor::surface::touchpen::V1_3::BsHidAutoBondInputReportCallback::BsHidAutoBondInputReportCallback(android::sp<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback>)
+000000000003eba8 T vendor::surface::touchpen::V1_3::BsHidAutoBondInputReportCallback::BsHidAutoBondInputReportCallback(android::sp<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback>)
+000000000003e964 T vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+000000000003e8c0 T vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000003e8b0 T vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::ping()
+000000000003e410 T vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::BnHwHidAutoBondInputReportCallback(android::sp<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback> const&)
+000000000003e1ac T vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::BnHwHidAutoBondInputReportCallback(android::sp<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback> const&)
+000000000003e800 T vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::~BnHwHidAutoBondInputReportCallback()
+000000000003e76c T vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::~BnHwHidAutoBondInputReportCallback()
+000000000003e67c T vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::~BnHwHidAutoBondInputReportCallback()
+000000000003dc54 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+000000000003de68 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000003db48 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+000000000003df74 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+000000000003d944 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+000000000003d734 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::onLastStrongRef(void const*)
+000000000003da58 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::interfaceDescriptor() generates (string)
+000000000003df58 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::notifySyspropsChanged()
+000000000003dc38 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::setHALInstrumentation()
+000000000003d91c T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::notifyAutoBondDeviceInRange(android::hardware::hidl_array<unsigned char, 4ul> const&, android::hardware::hidl_array<unsigned char, 6ul> const&, vendor::surface::touchpen::V1_1::AutoBondDeviceInRangeInfo)
+000000000003d8fc T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::notifyFeatureABCapabilityInputReport(vendor::surface::touchpen::V1_1::FeatureAutoBondCapability)
+000000000003de4c T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::ping()
+000000000003da34 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+000000000003d590 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::BpHwHidAutoBondInputReportCallback(android::sp<android::hardware::IBinder> const&)
+000000000003d3c8 T vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::BpHwHidAutoBondInputReportCallback(android::sp<android::hardware::IBinder> const&)
+descriptor
+getService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+tryGetService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+interfaceChain() generates (vec<android::hardware::hidl_string>)
+registerAsService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+interfaceDescriptor() generates (string)
+notifySyspropsChanged()
+setHALInstrumentation()
+registerForNotifications(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, android::sp<android::hidl::manager::V1_0::IServiceNotification> const&)
+ping()
+debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+castFrom(android::sp<vendor::surface::touchpen::V1_0::ITouchPen> const&, bool)
+castFrom(android::sp<vendor::surface::touchpen::V1_1::ITouchPen> const&, bool)
+castFrom(android::sp<vendor::surface::touchpen::V1_2::ITouchPen> const&, bool)
+castFrom(android::sp<android::hidl::base::V1_0::IBase> const&, bool)
+castFrom(android::sp<vendor::surface::touchpen::V1_3::ITouchPen> const&, bool)
+                 U android::sp_report_race()
+                 U android::report_sysprop_change()
+                 U android::sp_report_stack_pointer()
+                 U android::hidl::base::V1_0::IBase::descriptor
+                 U android::hidl::base::V1_0::IBase::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U android::hidl::base::V1_0::IBase::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U android::hidl::base::V1_0::IBase::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U android::hidl::base::V1_0::IBase::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U android::hidl::base::V1_0::IBase::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::IBase::interfaceDescriptor() generates (string)
+                 U android::hidl::base::V1_0::IBase::notifySyspropsChanged()
+                 U android::hidl::base::V1_0::IBase::setHALInstrumentation()
+                 U android::hidl::base::V1_0::IBase::ping()
+                 U android::hidl::base::V1_0::IBase::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::BnHwBase::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+                 U android::hidl::base::V1_0::BnHwBase::BnHwBase(android::sp<android::hidl::base::V1_0::IBase> const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_ping(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_debug(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_getDebugInfo(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_getHashChain(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_interfaceChain(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_interfaceDescriptor(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (string)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_notifySyspropsChanged(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_setHALInstrumentation(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*)
+                 U android::RefBase::onFirstRef()
+                 U android::RefBase::weakref_type::decWeak(void const*)
+                 U android::RefBase::onLastWeakRef(void const*)
+                 U android::RefBase::onLastStrongRef(void const*)
+                 U android::RefBase::onIncStrongAttempted(unsigned int, void const*)
+                 U android::RefBase::RefBase()
+                 U android::RefBase::~RefBase()
+                 U android::hardware::IInterface::asBinder(android::hardware::IInterface const*)
+                 U android::hardware::IInterface::IInterface()
+                 U android::hardware::IInterface::~IInterface()
+                 U android::hardware::IInterface::~IInterface()
+                 U android::hardware::IInterface::~IInterface()
+                 U android::hardware::BpHwRefBase::onFirstRef()
+                 U android::hardware::BpHwRefBase::onLastStrongRef(void const*)
+                 U android::hardware::BpHwRefBase::onIncStrongAttempted(unsigned int, void const*)
+                 U android::hardware::BpHwRefBase::BpHwRefBase(android::sp<android::hardware::IBinder> const&)
+                 U android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U android::hardware::hidl_string::hidl_string(char const*)
+                 U android::hardware::hidl_string::hidl_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hardware::hidl_string::hidl_string(string)
+                 U android::hardware::hidl_string::hidl_string()
+                 U android::hardware::hidl_string::~hidl_string()
+                 U android::hardware::hidl_string::operator=(string)
+                 U android::hardware::ProcessState::startThreadPool()
+                 U android::hardware::ProcessState::self()
+                 U android::hardware::writeToParcel(android::hardware::Status const&, android::hardware::Parcel*)
+                 U android::hardware::getRequestingSid(android::sp<android::hidl::base::V1_0::IBase> const&)
+                 U android::hardware::defaultServiceManager()
+                 U android::hardware::getMinSchedulerPolicy(android::sp<android::hidl::base::V1_0::IBase> const&)
+                 U android::hardware::getOrCreateCachedBinder(android::hidl::base::V1_0::IBase*)
+                 U android::hardware::hidl_binder_death_recipient::getRecipient()
+                 U android::hardware::hidl_binder_death_recipient::hidl_binder_death_recipient(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long, android::sp<android::hidl::base::V1_0::IBase> const&)
+                 U android::hardware::Parcel::writeInterfaceToken(char const*)
+                 U android::hardware::Parcel::writeBool(bool)
+                 U android::hardware::Parcel::Parcel()
+                 U android::hardware::Parcel::~Parcel()
+                 U android::hardware::Status::setFromStatusT(int)
+                 U android::hardware::Status::fromExceptionCode(int)
+                 U android::hardware::Status::fromExceptionCode(int, char const*)
+                 U android::hardware::Status::ok()
+                 U android::hardware::IBinder::localBinder()
+                 U android::hardware::IBinder::remoteBinder()
+                 U android::hardware::IBinder::~IBinder()
+                 U android::hardware::IBinder::~IBinder()
+                 U android::hardware::details::TaskRunner::push(std::__1::function<void ()> const&)
+                 U android::hardware::details::TaskRunner::start(unsigned long)
+                 U android::hardware::details::TaskRunner::TaskRunner()
+                 U android::hardware::details::TaskRunner::~TaskRunner()
+                 U android::hardware::details::debuggable()
+0000000000034554 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IPenCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IPenCallback, vendor::surface::touchpen::V1_0::IPenCallback, vendor::surface::touchpen::V1_3::BpHwPenCallback>(android::sp<vendor::surface::touchpen::V1_0::IPenCallback>, char const*, bool)
+0000000000034260 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IPenCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IPenCallback, vendor::surface::touchpen::V1_1::IPenCallback, vendor::surface::touchpen::V1_3::BpHwPenCallback>(android::sp<vendor::surface::touchpen::V1_1::IPenCallback>, char const*, bool)
+0000000000033f6c W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IPenCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IPenCallback, vendor::surface::touchpen::V1_2::IPenCallback, vendor::surface::touchpen::V1_3::BpHwPenCallback>(android::sp<vendor::surface::touchpen::V1_2::IPenCallback>, char const*, bool)
+0000000000034848 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IPenCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IPenCallback, android::hidl::base::V1_0::IBase, vendor::surface::touchpen::V1_3::BpHwPenCallback>(android::sp<android::hidl::base::V1_0::IBase>, char const*, bool)
+0000000000038848 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IPenTypeCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IPenTypeCallback, vendor::surface::touchpen::V1_2::IPenTypeCallback, vendor::surface::touchpen::V1_3::BpHwPenTypeCallback>(android::sp<vendor::surface::touchpen::V1_2::IPenTypeCallback>, char const*, bool)
+0000000000038b3c W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IPenTypeCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IPenTypeCallback, android::hidl::base::V1_0::IBase, vendor::surface::touchpen::V1_3::BpHwPenTypeCallback>(android::sp<android::hidl::base::V1_0::IBase>, char const*, bool)
+000000000002a358 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IDisplayTappedCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IDisplayTappedCallback, vendor::surface::touchpen::V1_0::IDisplayTappedCallback, vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback>(android::sp<vendor::surface::touchpen::V1_0::IDisplayTappedCallback>, char const*, bool)
+000000000002a064 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IDisplayTappedCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IDisplayTappedCallback, vendor::surface::touchpen::V1_1::IDisplayTappedCallback, vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback>(android::sp<vendor::surface::touchpen::V1_1::IDisplayTappedCallback>, char const*, bool)
+0000000000029d70 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IDisplayTappedCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IDisplayTappedCallback, vendor::surface::touchpen::V1_2::IDisplayTappedCallback, vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback>(android::sp<vendor::surface::touchpen::V1_2::IDisplayTappedCallback>, char const*, bool)
+000000000002a64c W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IDisplayTappedCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IDisplayTappedCallback, android::hidl::base::V1_0::IBase, vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback>(android::sp<android::hidl::base::V1_0::IBase>, char const*, bool)
+000000000002fc9c W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IFirstPenContactCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IFirstPenContactCallback, vendor::surface::touchpen::V1_1::IFirstPenContactCallback, vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback>(android::sp<vendor::surface::touchpen::V1_1::IFirstPenContactCallback>, char const*, bool)
+000000000002f9a8 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IFirstPenContactCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IFirstPenContactCallback, vendor::surface::touchpen::V1_2::IFirstPenContactCallback, vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback>(android::sp<vendor::surface::touchpen::V1_2::IFirstPenContactCallback>, char const*, bool)
+000000000002ff90 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IFirstPenContactCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IFirstPenContactCallback, android::hidl::base::V1_0::IBase, vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback>(android::sp<android::hidl::base::V1_0::IBase>, char const*, bool)
+000000000003ce84 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback, vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback, vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback>(android::sp<vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback>, char const*, bool)
+000000000003cb90 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback, vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback, vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback>(android::sp<vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback>, char const*, bool)
+000000000003d178 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback, android::hidl::base::V1_0::IBase, vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback>(android::sp<android::hidl::base::V1_0::IBase>, char const*, bool)
+0000000000041b54 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::ITouchPen> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::ITouchPen, vendor::surface::touchpen::V1_0::ITouchPen, vendor::surface::touchpen::V1_3::BpHwTouchPen>(android::sp<vendor::surface::touchpen::V1_0::ITouchPen>, char const*, bool)
+0000000000041860 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::ITouchPen> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::ITouchPen, vendor::surface::touchpen::V1_1::ITouchPen, vendor::surface::touchpen::V1_3::BpHwTouchPen>(android::sp<vendor::surface::touchpen::V1_1::ITouchPen>, char const*, bool)
+000000000004156c W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::ITouchPen> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::ITouchPen, vendor::surface::touchpen::V1_2::ITouchPen, vendor::surface::touchpen::V1_3::BpHwTouchPen>(android::sp<vendor::surface::touchpen::V1_2::ITouchPen>, char const*, bool)
+0000000000041e48 W android::hardware::Return<android::sp<vendor::surface::touchpen::V1_3::ITouchPen> > android::hardware::details::castInterface<vendor::surface::touchpen::V1_3::ITouchPen, android::hidl::base::V1_0::IBase, vendor::surface::touchpen::V1_3::BpHwTouchPen>(android::sp<android::hidl::base::V1_0::IBase>, char const*, bool)
+                 U android::hardware::details::return_status::~return_status()
+                 U android::hardware::details::return_status::operator=(android::hardware::details::return_status&&)
+                 U android::hardware::details::logAlwaysFatal(char const*)
+0000000000049a50 W android::sp<vendor::surface::touchpen::V1_0::IPenCallback> android::hardware::details::wrapPassthrough<vendor::surface::touchpen::V1_0::IPenCallback, void>(android::sp<vendor::surface::touchpen::V1_0::IPenCallback>)
+0000000000049464 W android::sp<vendor::surface::touchpen::V1_0::IDisplayTappedCallback> android::hardware::details::wrapPassthrough<vendor::surface::touchpen::V1_0::IDisplayTappedCallback, void>(android::sp<vendor::surface::touchpen::V1_0::IDisplayTappedCallback>)
+000000000004a044 W android::sp<vendor::surface::touchpen::V1_1::IFirstPenContactCallback> android::hardware::details::wrapPassthrough<vendor::surface::touchpen::V1_1::IFirstPenContactCallback, void>(android::sp<vendor::surface::touchpen::V1_1::IFirstPenContactCallback>)
+000000000004a124 W android::sp<vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback> android::hardware::details::wrapPassthrough<vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback, void>(android::sp<vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback>)
+000000000004a204 W android::sp<vendor::surface::touchpen::V1_2::IPenTypeCallback> android::hardware::details::wrapPassthrough<vendor::surface::touchpen::V1_2::IPenTypeCallback, void>(android::sp<vendor::surface::touchpen::V1_2::IPenTypeCallback>)
+                 U android::hardware::details::HidlInstrumentor::configureInstrumentation(bool)
+                 U android::hardware::details::HidlInstrumentor::HidlInstrumentor(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hardware::details::HidlInstrumentor::~HidlInstrumentor()
+                 U android::hardware::details::canCastInterface(android::hidl::base::V1_0::IBase*, char const*, bool)
+                 U android::hardware::details::getPidIfSharable()
+0000000000044a7c W android::sp<vendor::surface::touchpen::V1_3::ITouchPen> android::hardware::details::getServiceInternal<vendor::surface::touchpen::V1_3::BpHwTouchPen, vendor::surface::touchpen::V1_3::ITouchPen, void, void>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+00000000000365bc W android::sp<vendor::surface::touchpen::V1_3::IPenCallback> android::hardware::details::getServiceInternal<vendor::surface::touchpen::V1_3::BpHwPenCallback, vendor::surface::touchpen::V1_3::IPenCallback, void, void>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+000000000003a824 W android::sp<vendor::surface::touchpen::V1_3::IPenTypeCallback> android::hardware::details::getServiceInternal<vendor::surface::touchpen::V1_3::BpHwPenTypeCallback, vendor::surface::touchpen::V1_3::IPenTypeCallback, void, void>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+000000000002c494 W android::sp<vendor::surface::touchpen::V1_3::IDisplayTappedCallback> android::hardware::details::getServiceInternal<vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback, vendor::surface::touchpen::V1_3::IDisplayTappedCallback, void, void>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+0000000000031cec W android::sp<vendor::surface::touchpen::V1_3::IFirstPenContactCallback> android::hardware::details::getServiceInternal<vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback, vendor::surface::touchpen::V1_3::IFirstPenContactCallback, void, void>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+000000000003ef6c W android::sp<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback> android::hardware::details::getServiceInternal<vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback, vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback, void, void>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+                 U android::hardware::details::getBnConstructorMap()
+                 U android::hardware::details::getBsConstructorMap()
+                 U android::hardware::details::getRawServiceInternal(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+                 U android::hardware::details::wrapPassthroughInternal(android::sp<android::hidl::base::V1_0::IBase>)
+                 U android::hardware::details::registerAsServiceInternal(android::sp<android::hidl::base::V1_0::IBase> const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hardware::details::gBnMap
+                 U android::hardware::BHwBinder::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+                 U android::hardware::BHwBinder::linkToDeath(android::sp<android::hardware::IBinder::DeathRecipient> const&, void*, unsigned int)
+                 U android::hardware::BHwBinder::localBinder()
+                 U android::hardware::BHwBinder::attachObject(void const*, void*, void*, void (*)(void const*, void*, void*))
+                 U android::hardware::BHwBinder::detachObject(void const*)
+                 U android::hardware::BHwBinder::unlinkToDeath(android::wp<android::hardware::IBinder::DeathRecipient> const&, void*, unsigned int, android::wp<android::hardware::IBinder::DeathRecipient>*)
+                 U android::hardware::BHwBinder::setRequestingSid(bool)
+                 U android::hardware::BHwBinder::transact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+                 U android::hardware::BHwBinder::~BHwBinder()
+                 U android::hardware::BHwBinder::~BHwBinder()
+                 U android::hidl::base::V1_0::BnHwBase::checkSubclass(void const*) const
+                 U android::RefBase::createWeak(void const*) const
+                 U android::RefBase::getWeakRefs() const
+                 U android::RefBase::decStrong(void const*) const
+                 U android::RefBase::incStrong(void const*) const
+                 U android::hardware::Parcel::enforceInterface(char const*) const
+                 U android::hardware::Parcel::readBool(bool*) const
+                 U android::hardware::IBinder::checkSubclass(void const*) const
+                 U android::hardware::details::return_status::onValueRetrieval() const
+                 U android::hardware::details::return_status::assertOk() const
+                 U android::hardware::BHwBinder::findObject(void const*) const
+                 U std::__1::__vector_base_common<true>::__throw_length_error() const
+                 U std::__1::__basic_string_common<true>::__throw_length_error() const
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000000000002e2c4 W void std::__1::__tree_remove<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+000000000002dbd0 W void std::__1::__tree_balance_after_insert<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+                 U std::__1::mutex::lock()
+                 U std::__1::mutex::unlock()
+                 U std::__1::mutex::~mutex()
+000000000002deac W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::__find_equal<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000000000002e6e8 W std::__1::__tree_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, void*>*, long> std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::find<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000000000002e7fc W std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::erase(std::__1::__tree_const_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, void*>*, long>)
+000000000002dab0 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::__find_equal<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000000000002e0e0 W std::__1::__tree_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, void*>*, long> std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::find<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000000000002e1f4 W std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::erase(std::__1::__tree_const_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, void*>*, long>)
+000000000002e9e0 W void std::__1::vector<android::sp<android::hardware::hidl_binder_death_recipient>, std::__1::allocator<android::sp<android::hardware::hidl_binder_death_recipient> > >::__push_back_slow_path<android::sp<android::hardware::hidl_binder_death_recipient> >(android::sp<android::hardware::hidl_binder_death_recipient>&&)
+0000000000053d68 V construction vtable for vendor::surface::touchpen::V1_3::ITouchPen-in-vendor::surface::touchpen::V1_3::BsTouchPen
+0000000000053ad0 D construction vtable for android::hidl::base::V1_0::BnHwBase-in-vendor::surface::touchpen::V1_3::BnHwTouchPen
+0000000000053c90 D construction vtable for android::hardware::IBinder-in-vendor::surface::touchpen::V1_3::BnHwTouchPen
+0000000000053bb0 D construction vtable for android::hardware::BHwBinder-in-vendor::surface::touchpen::V1_3::BnHwTouchPen
+00000000000538a8 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::BpHwTouchPen
+0000000000053080 D construction vtable for android::hardware::BpInterface<vendor::surface::touchpen::V1_3::ITouchPen>-in-vendor::surface::touchpen::V1_3::BpHwTouchPen
+0000000000053758 D construction vtable for vendor::surface::touchpen::V1_0::ITouchPen-in-vendor::surface::touchpen::V1_3::BpHwTouchPen
+00000000000535d0 D construction vtable for vendor::surface::touchpen::V1_1::ITouchPen-in-vendor::surface::touchpen::V1_3::BpHwTouchPen
+0000000000053438 D construction vtable for vendor::surface::touchpen::V1_2::ITouchPen-in-vendor::surface::touchpen::V1_3::BpHwTouchPen
+0000000000053298 D construction vtable for vendor::surface::touchpen::V1_3::ITouchPen-in-vendor::surface::touchpen::V1_3::BpHwTouchPen
+0000000000053a28 D construction vtable for android::hardware::BpHwRefBase-in-vendor::surface::touchpen::V1_3::BpHwTouchPen
+0000000000053990 D construction vtable for android::hardware::IInterface-in-vendor::surface::touchpen::V1_3::BpHwTouchPen
+000000000004f1a8 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::IPenCallback
+000000000004f0b8 D construction vtable for vendor::surface::touchpen::V1_0::IPenCallback-in-vendor::surface::touchpen::V1_3::IPenCallback
+000000000004efc8 D construction vtable for vendor::surface::touchpen::V1_1::IPenCallback-in-vendor::surface::touchpen::V1_3::IPenCallback
+000000000004eed8 D construction vtable for vendor::surface::touchpen::V1_2::IPenCallback-in-vendor::surface::touchpen::V1_3::IPenCallback
+000000000004fc78 V construction vtable for vendor::surface::touchpen::V1_3::IPenCallback-in-vendor::surface::touchpen::V1_3::BsPenCallback
+000000000004f9e0 D construction vtable for android::hidl::base::V1_0::BnHwBase-in-vendor::surface::touchpen::V1_3::BnHwPenCallback
+000000000004fba0 D construction vtable for android::hardware::IBinder-in-vendor::surface::touchpen::V1_3::BnHwPenCallback
+000000000004fac0 D construction vtable for android::hardware::BHwBinder-in-vendor::surface::touchpen::V1_3::BnHwPenCallback
+000000000004f7b8 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::BpHwPenCallback
+000000000004f290 D construction vtable for android::hardware::BpInterface<vendor::surface::touchpen::V1_3::IPenCallback>-in-vendor::surface::touchpen::V1_3::BpHwPenCallback
+000000000004f6c8 D construction vtable for vendor::surface::touchpen::V1_0::IPenCallback-in-vendor::surface::touchpen::V1_3::BpHwPenCallback
+000000000004f5d8 D construction vtable for vendor::surface::touchpen::V1_1::IPenCallback-in-vendor::surface::touchpen::V1_3::BpHwPenCallback
+000000000004f4e8 D construction vtable for vendor::surface::touchpen::V1_2::IPenCallback-in-vendor::surface::touchpen::V1_3::BpHwPenCallback
+000000000004f3f8 D construction vtable for vendor::surface::touchpen::V1_3::IPenCallback-in-vendor::surface::touchpen::V1_3::BpHwPenCallback
+000000000004f938 D construction vtable for android::hardware::BpHwRefBase-in-vendor::surface::touchpen::V1_3::BpHwPenCallback
+000000000004f8a0 D construction vtable for android::hardware::IInterface-in-vendor::surface::touchpen::V1_3::BpHwPenCallback
+00000000000504c0 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::IPenTypeCallback
+00000000000503d0 D construction vtable for vendor::surface::touchpen::V1_2::IPenTypeCallback-in-vendor::surface::touchpen::V1_3::IPenTypeCallback
+0000000000050db0 V construction vtable for vendor::surface::touchpen::V1_3::IPenTypeCallback-in-vendor::surface::touchpen::V1_3::BsPenTypeCallback
+0000000000050b18 D construction vtable for android::hidl::base::V1_0::BnHwBase-in-vendor::surface::touchpen::V1_3::BnHwPenTypeCallback
+0000000000050cd8 D construction vtable for android::hardware::IBinder-in-vendor::surface::touchpen::V1_3::BnHwPenTypeCallback
+0000000000050bf8 D construction vtable for android::hardware::BHwBinder-in-vendor::surface::touchpen::V1_3::BnHwPenTypeCallback
+00000000000508f0 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::BpHwPenTypeCallback
+00000000000505a8 D construction vtable for android::hardware::BpInterface<vendor::surface::touchpen::V1_3::IPenTypeCallback>-in-vendor::surface::touchpen::V1_3::BpHwPenTypeCallback
+0000000000050800 D construction vtable for vendor::surface::touchpen::V1_2::IPenTypeCallback-in-vendor::surface::touchpen::V1_3::BpHwPenTypeCallback
+0000000000050710 D construction vtable for vendor::surface::touchpen::V1_3::IPenTypeCallback-in-vendor::surface::touchpen::V1_3::BpHwPenTypeCallback
+0000000000050a70 D construction vtable for android::hardware::BpHwRefBase-in-vendor::surface::touchpen::V1_3::BpHwPenTypeCallback
+00000000000509d8 D construction vtable for android::hardware::IInterface-in-vendor::surface::touchpen::V1_3::BpHwPenTypeCallback
+000000000004c8a8 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::IDisplayTappedCallback
+000000000004c7b8 D construction vtable for vendor::surface::touchpen::V1_0::IDisplayTappedCallback-in-vendor::surface::touchpen::V1_3::IDisplayTappedCallback
+000000000004c6c8 D construction vtable for vendor::surface::touchpen::V1_1::IDisplayTappedCallback-in-vendor::surface::touchpen::V1_3::IDisplayTappedCallback
+000000000004c5d8 D construction vtable for vendor::surface::touchpen::V1_2::IDisplayTappedCallback-in-vendor::surface::touchpen::V1_3::IDisplayTappedCallback
+000000000004d378 V construction vtable for vendor::surface::touchpen::V1_3::IDisplayTappedCallback-in-vendor::surface::touchpen::V1_3::BsDisplayTappedCallback
+000000000004dd60 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::IFirstPenContactCallback
+000000000004dc70 D construction vtable for vendor::surface::touchpen::V1_1::IFirstPenContactCallback-in-vendor::surface::touchpen::V1_3::IFirstPenContactCallback
+000000000004db80 D construction vtable for vendor::surface::touchpen::V1_2::IFirstPenContactCallback-in-vendor::surface::touchpen::V1_3::IFirstPenContactCallback
+000000000004d0e0 D construction vtable for android::hidl::base::V1_0::BnHwBase-in-vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback
+000000000004d2a0 D construction vtable for android::hardware::IBinder-in-vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback
+000000000004d1c0 D construction vtable for android::hardware::BHwBinder-in-vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback
+000000000004ceb8 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback
+000000000004c990 D construction vtable for android::hardware::BpInterface<vendor::surface::touchpen::V1_3::IDisplayTappedCallback>-in-vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback
+000000000004cdc8 D construction vtable for vendor::surface::touchpen::V1_0::IDisplayTappedCallback-in-vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback
+000000000004ccd8 D construction vtable for vendor::surface::touchpen::V1_1::IDisplayTappedCallback-in-vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback
+000000000004cbe8 D construction vtable for vendor::surface::touchpen::V1_2::IDisplayTappedCallback-in-vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback
+000000000004caf8 D construction vtable for vendor::surface::touchpen::V1_3::IDisplayTappedCallback-in-vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback
+000000000004d038 D construction vtable for android::hardware::BpHwRefBase-in-vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback
+000000000004cfa0 D construction vtable for android::hardware::IInterface-in-vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback
+000000000004e740 V construction vtable for vendor::surface::touchpen::V1_3::IFirstPenContactCallback-in-vendor::surface::touchpen::V1_3::BsFirstPenContactCallback
+000000000004e4a8 D construction vtable for android::hidl::base::V1_0::BnHwBase-in-vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback
+000000000004e668 D construction vtable for android::hardware::IBinder-in-vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback
+000000000004e588 D construction vtable for android::hardware::BHwBinder-in-vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback
+000000000004e280 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback
+000000000004de48 D construction vtable for android::hardware::BpInterface<vendor::surface::touchpen::V1_3::IFirstPenContactCallback>-in-vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback
+000000000004e190 D construction vtable for vendor::surface::touchpen::V1_1::IFirstPenContactCallback-in-vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback
+000000000004e0a0 D construction vtable for vendor::surface::touchpen::V1_2::IFirstPenContactCallback-in-vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback
+000000000004dfb0 D construction vtable for vendor::surface::touchpen::V1_3::IFirstPenContactCallback-in-vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback
+000000000004e400 D construction vtable for android::hardware::BpHwRefBase-in-vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback
+000000000004e368 D construction vtable for android::hardware::IInterface-in-vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback
+0000000000051730 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback
+0000000000051638 D construction vtable for vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback-in-vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback
+0000000000051540 D construction vtable for vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback-in-vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback
+0000000000052130 V construction vtable for vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback-in-vendor::surface::touchpen::V1_3::BsHidAutoBondInputReportCallback
+0000000000051e98 D construction vtable for android::hidl::base::V1_0::BnHwBase-in-vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback
+0000000000052058 D construction vtable for android::hardware::IBinder-in-vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback
+0000000000051f78 D construction vtable for android::hardware::BHwBinder-in-vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback
+0000000000051c70 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback
+0000000000051818 D construction vtable for android::hardware::BpInterface<vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback>-in-vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback
+0000000000051b78 D construction vtable for vendor::surface::touchpen::V1_1::IHidAutoBondInputReportCallback-in-vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback
+0000000000051a80 D construction vtable for vendor::surface::touchpen::V1_2::IHidAutoBondInputReportCallback-in-vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback
+0000000000051988 D construction vtable for vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback-in-vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback
+0000000000051df0 D construction vtable for android::hardware::BpHwRefBase-in-vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback
+0000000000051d58 D construction vtable for android::hardware::IInterface-in-vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback
+0000000000052f98 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::touchpen::V1_3::ITouchPen
+0000000000052e48 D construction vtable for vendor::surface::touchpen::V1_0::ITouchPen-in-vendor::surface::touchpen::V1_3::ITouchPen
+0000000000052cc0 D construction vtable for vendor::surface::touchpen::V1_1::ITouchPen-in-vendor::surface::touchpen::V1_3::ITouchPen
+0000000000052b28 D construction vtable for vendor::surface::touchpen::V1_2::ITouchPen-in-vendor::surface::touchpen::V1_3::ITouchPen
+0000000000052738 D VTT for vendor::surface::touchpen::V1_3::BnHwTouchPen
+0000000000052588 D VTT for vendor::surface::touchpen::V1_3::BpHwTouchPen
+000000000004ee88 D VTT for vendor::surface::touchpen::V1_3::IPenCallback
+000000000004ec48 D VTT for vendor::surface::touchpen::V1_3::BnHwPenCallback
+000000000004ea98 D VTT for vendor::surface::touchpen::V1_3::BpHwPenCallback
+00000000000503a0 D VTT for vendor::surface::touchpen::V1_3::IPenTypeCallback
+0000000000050160 D VTT for vendor::surface::touchpen::V1_3::BnHwPenTypeCallback
+000000000004ffd0 D VTT for vendor::surface::touchpen::V1_3::BpHwPenTypeCallback
+000000000004c588 D VTT for vendor::surface::touchpen::V1_3::IDisplayTappedCallback
+000000000004db40 D VTT for vendor::surface::touchpen::V1_3::IFirstPenContactCallback
+000000000004c348 D VTT for vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback
+000000000004c198 D VTT for vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback
+000000000004d900 D VTT for vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback
+000000000004d760 D VTT for vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback
+0000000000051500 D VTT for vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback
+00000000000512b0 D VTT for vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback
+0000000000051110 D VTT for vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback
+0000000000052ad8 D VTT for vendor::surface::touchpen::V1_3::ITouchPen
+0000000000052778 V vtable for vendor::surface::touchpen::V1_3::BsTouchPen
+0000000000052638 D vtable for vendor::surface::touchpen::V1_3::BnHwTouchPen
+0000000000052348 D vtable for vendor::surface::touchpen::V1_3::BpHwTouchPen
+000000000004ed98 D vtable for vendor::surface::touchpen::V1_3::IPenCallback
+000000000004ec88 V vtable for vendor::surface::touchpen::V1_3::BsPenCallback
+000000000004eb48 D vtable for vendor::surface::touchpen::V1_3::BnHwPenCallback
+000000000004e908 D vtable for vendor::surface::touchpen::V1_3::BpHwPenCallback
+00000000000502b0 D vtable for vendor::surface::touchpen::V1_3::IPenTypeCallback
+00000000000501a0 V vtable for vendor::surface::touchpen::V1_3::BsPenTypeCallback
+0000000000050060 D vtable for vendor::surface::touchpen::V1_3::BnHwPenTypeCallback
+000000000004fe40 D vtable for vendor::surface::touchpen::V1_3::BpHwPenTypeCallback
+000000000004c498 D vtable for vendor::surface::touchpen::V1_3::IDisplayTappedCallback
+000000000004c388 V vtable for vendor::surface::touchpen::V1_3::BsDisplayTappedCallback
+000000000004da50 D vtable for vendor::surface::touchpen::V1_3::IFirstPenContactCallback
+000000000004c248 D vtable for vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback
+000000000004c008 D vtable for vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback
+000000000004d940 V vtable for vendor::surface::touchpen::V1_3::BsFirstPenContactCallback
+000000000004d800 D vtable for vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback
+000000000004d5d0 D vtable for vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback
+0000000000051408 D vtable for vendor::surface::touchpen::V1_3::IHidAutoBondInputReportCallback
+00000000000512f0 V vtable for vendor::surface::touchpen::V1_3::BsHidAutoBondInputReportCallback
+00000000000511b0 D vtable for vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback
+0000000000050f78 D vtable for vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback
+0000000000052938 D vtable for vendor::surface::touchpen::V1_3::ITouchPen
+0000000000042494 T non-virtual thunk to vendor::surface::touchpen::V1_3::BpHwTouchPen::onLastStrongRef(void const*)
+0000000000034ea4 T non-virtual thunk to vendor::surface::touchpen::V1_3::BpHwPenCallback::onLastStrongRef(void const*)
+0000000000039160 T non-virtual thunk to vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::onLastStrongRef(void const*)
+000000000002ac90 T non-virtual thunk to vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::onLastStrongRef(void const*)
+00000000000305e0 T non-virtual thunk to vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::onLastStrongRef(void const*)
+000000000003d7c8 T non-virtual thunk to vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::onLastStrongRef(void const*)
+00000000000439a0 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwTouchPen::~BnHwTouchPen()
+0000000000043904 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwTouchPen::~BnHwTouchPen()
+0000000000035ee4 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwPenCallback::~BnHwPenCallback()
+0000000000035e48 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwPenCallback::~BnHwPenCallback()
+000000000003a184 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::~BnHwPenTypeCallback()
+000000000003a0e8 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::~BnHwPenTypeCallback()
+000000000002bdd4 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::~BnHwDisplayTappedCallback()
+000000000002bd38 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::~BnHwDisplayTappedCallback()
+0000000000031620 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::~BnHwFirstPenContactCallback()
+0000000000031584 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::~BnHwFirstPenContactCallback()
+000000000003e834 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::~BnHwHidAutoBondInputReportCallback()
+000000000003e798 T non-virtual thunk to vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::~BnHwHidAutoBondInputReportCallback()
+00000000000439dc T virtual thunk to vendor::surface::touchpen::V1_3::BnHwTouchPen::~BnHwTouchPen()
+0000000000043934 T virtual thunk to vendor::surface::touchpen::V1_3::BnHwTouchPen::~BnHwTouchPen()
+0000000000035f20 T virtual thunk to vendor::surface::touchpen::V1_3::BnHwPenCallback::~BnHwPenCallback()
+0000000000035e78 T virtual thunk to vendor::surface::touchpen::V1_3::BnHwPenCallback::~BnHwPenCallback()
+000000000003a1c0 T virtual thunk to vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::~BnHwPenTypeCallback()
+000000000003a118 T virtual thunk to vendor::surface::touchpen::V1_3::BnHwPenTypeCallback::~BnHwPenTypeCallback()
+000000000002be10 T virtual thunk to vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::~BnHwDisplayTappedCallback()
+000000000002bd68 T virtual thunk to vendor::surface::touchpen::V1_3::BnHwDisplayTappedCallback::~BnHwDisplayTappedCallback()
+000000000003165c T virtual thunk to vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::~BnHwFirstPenContactCallback()
+00000000000315b4 T virtual thunk to vendor::surface::touchpen::V1_3::BnHwFirstPenContactCallback::~BnHwFirstPenContactCallback()
+000000000003e870 T virtual thunk to vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::~BnHwHidAutoBondInputReportCallback()
+000000000003e7c8 T virtual thunk to vendor::surface::touchpen::V1_3::BnHwHidAutoBondInputReportCallback::~BnHwHidAutoBondInputReportCallback()
+                 U virtual thunk to android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U virtual thunk to android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U virtual thunk to android::hardware::IInterface::~IInterface()
+                 U virtual thunk to android::hardware::IInterface::~IInterface()
+                 U virtual thunk to android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U virtual thunk to android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U virtual thunk to android::hardware::IBinder::~IBinder()
+                 U virtual thunk to android::hardware::IBinder::~IBinder()
+                 U virtual thunk to android::hardware::BHwBinder::~BHwBinder()
+                 U virtual thunk to android::hardware::BHwBinder::~BHwBinder()
+                 U virtual thunk to android::hardware::BpHwRefBase::onFirstRef()
+000000000004252c T virtual thunk to vendor::surface::touchpen::V1_3::BpHwTouchPen::onLastStrongRef(void const*)
+0000000000034f3c T virtual thunk to vendor::surface::touchpen::V1_3::BpHwPenCallback::onLastStrongRef(void const*)
+00000000000391f8 T virtual thunk to vendor::surface::touchpen::V1_3::BpHwPenTypeCallback::onLastStrongRef(void const*)
+000000000002ad28 T virtual thunk to vendor::surface::touchpen::V1_3::BpHwDisplayTappedCallback::onLastStrongRef(void const*)
+0000000000030678 T virtual thunk to vendor::surface::touchpen::V1_3::BpHwFirstPenContactCallback::onLastStrongRef(void const*)
+000000000003d860 T virtual thunk to vendor::surface::touchpen::V1_3::BpHwHidAutoBondInputReportCallback::onLastStrongRef(void const*)
+                 U virtual thunk to android::hardware::BpHwRefBase::onLastStrongRef(void const*)
+                 U virtual thunk to android::hardware::BpHwRefBase::onIncStrongAttempted(unsigned int, void const*)
+                 U operator delete[](void*)
+                 U operator delete(void*)
+                 U operator new[](unsigned long)
+                 U operator new(unsigned long)
+                 U __cxa_finalize
+                 U __cxa_pure_virtual
+                 U __stack_chk_fail
+                 U abort
+                 U atrace_begin_body
+                 U atrace_end_body
+                 U atrace_get_enabled_tags
+                 U memcmp
+                 U memcpy
+                 U memset
+                 U strlen
