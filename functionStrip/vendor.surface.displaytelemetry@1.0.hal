@@ -1,0 +1,310 @@
+000000000001d618 D vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::descriptor
+00000000000171f8 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::getService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+00000000000143fc T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+000000000001442c T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+0000000000014328 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+0000000000016f7c T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::tryGetService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+00000000000144dc T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+0000000000014160 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::interfaceChain() generates (vec<android::hardware::hidl_string>)
+0000000000017204 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::registerAsService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000000000014294 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::interfaceDescriptor() generates (string)
+00000000000144b0 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::notifySyspropsChanged()
+00000000000143ec T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::setHALInstrumentation()
+00000000000172b0 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::registerForNotifications(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, android::sp<android::hidl::manager::V1_0::IServiceNotification> const&)
+000000000001441c T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::ping()
+0000000000014284 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+00000000000145bc T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::castFrom(android::sp<android::hidl::base::V1_0::IBase> const&, bool)
+00000000000144fc T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry::castFrom(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry> const&, bool)
+0000000000016ec8 T vendor::surface::displaytelemetry::V1_0::BsDisplayTelemetry::addOnewayTask() generates ()
+0000000000016d70 T vendor::surface::displaytelemetry::V1_0::BsDisplayTelemetry::BsDisplayTelemetry(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry>)
+0000000000016bfc T vendor::surface::displaytelemetry::V1_0::BsDisplayTelemetry::BsDisplayTelemetry(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry>)
+00000000000169b8 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+0000000000016914 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+0000000000016340 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::_hidl_registerDisplayTelemetryCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+00000000000166e4 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::_hidl_unregisterDisplayTelemetryCallback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+0000000000016904 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::ping()
+0000000000015ea8 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::BnHwDisplayTelemetry(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry> const&)
+0000000000015c4c T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::BnHwDisplayTelemetry(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry> const&)
+0000000000016290 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::~BnHwDisplayTelemetry()
+00000000000161fc T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::~BnHwDisplayTelemetry()
+000000000001610c T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::~BnHwDisplayTelemetry()
+00000000000156f4 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+0000000000015908 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+00000000000155e8 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+0000000000015a14 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+00000000000153e4 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::interfaceChain() generates (vec<android::hardware::hidl_string>)
+0000000000014be4 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::onLastStrongRef(void const*)
+00000000000154f8 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::interfaceDescriptor() generates (string)
+00000000000159f8 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::notifySyspropsChanged()
+00000000000156d8 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::setHALInstrumentation()
+00000000000153b4 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::registerDisplayTelemetryCallback(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback> const&)
+00000000000153cc T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::unregisterDisplayTelemetryCallback(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback> const&)
+0000000000014dac T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::_hidl_registerDisplayTelemetryCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback> const&)
+00000000000150b0 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::_hidl_unregisterDisplayTelemetryCallback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback> const&)
+00000000000158ec T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::ping()
+00000000000154d4 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+0000000000014a48 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::BpHwDisplayTelemetry(android::sp<android::hardware::IBinder> const&)
+00000000000148b0 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::BpHwDisplayTelemetry(android::sp<android::hardware::IBinder> const&)
+000000000001d610 D vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::descriptor
+00000000000114f8 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::getService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+000000000000ea68 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+000000000000ea98 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000000e8bc T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+000000000001127c T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::tryGetService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+000000000000eb48 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+000000000000e6f4 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+0000000000011504 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::registerAsService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000000000000e828 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::interfaceDescriptor() generates (string)
+000000000000eb1c T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::notifySyspropsChanged()
+000000000000ea58 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::setHALInstrumentation()
+00000000000115b0 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::registerForNotifications(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, android::sp<android::hidl::manager::V1_0::IServiceNotification> const&)
+000000000000ea88 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::ping()
+000000000000e818 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+000000000000ec28 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::castFrom(android::sp<android::hidl::base::V1_0::IBase> const&, bool)
+000000000000eb68 T vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback::castFrom(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback> const&, bool)
+00000000000111c8 T vendor::surface::displaytelemetry::V1_0::BsDisplayTelemetryClientCallback::addOnewayTask() generates ()
+0000000000011064 T vendor::surface::displaytelemetry::V1_0::BsDisplayTelemetryClientCallback::BsDisplayTelemetryClientCallback(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback>)
+0000000000010ee4 T vendor::surface::displaytelemetry::V1_0::BsDisplayTelemetryClientCallback::BsDisplayTelemetryClientCallback(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback>)
+0000000000010ca8 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+0000000000010c04 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000001094c T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::_hidl_displayTelemetryCbD(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+0000000000010a94 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::_hidl_displayTelemetryCbS(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+0000000000010bf4 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::ping()
+0000000000010388 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::BnHwDisplayTelemetryClientCallback(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback> const&)
+0000000000010120 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::BnHwDisplayTelemetryClientCallback(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback> const&)
+000000000001089c T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::~BnHwDisplayTelemetryClientCallback()
+0000000000010808 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::~BnHwDisplayTelemetryClientCallback()
+00000000000105f8 T vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::~BnHwDisplayTelemetryClientCallback()
+000000000000fbc8 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+000000000000fddc T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000000fabc T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+000000000000fee8 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+000000000000f8b8 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::interfaceChain() generates (vec<android::hardware::hidl_string>)
+000000000000f268 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::onLastStrongRef(void const*)
+000000000000f88c T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::displayTelemetryCbD(float)
+000000000000f8a0 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::displayTelemetryCbS(string)
+000000000000f9cc T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::interfaceDescriptor() generates (string)
+000000000000fecc T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::notifySyspropsChanged()
+000000000000fbac T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::setHALInstrumentation()
+000000000000f430 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::_hidl_displayTelemetryCbD(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, float)
+000000000000f650 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::_hidl_displayTelemetryCbS(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, string)
+000000000000fdc0 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::ping()
+000000000000f9a8 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+000000000000f0c0 T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::BpHwDisplayTelemetryClientCallback(android::sp<android::hardware::IBinder> const&)
+000000000000ef1c T vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::BpHwDisplayTelemetryClientCallback(android::sp<android::hardware::IBinder> const&)
+                 U android::sp_report_race()
+                 U android::report_sysprop_change()
+                 U android::sp_report_stack_pointer()
+                 U android::hidl::base::V1_0::IBase::descriptor
+                 U android::hidl::base::V1_0::IBase::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U android::hidl::base::V1_0::IBase::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U android::hidl::base::V1_0::IBase::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U android::hidl::base::V1_0::IBase::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U android::hidl::base::V1_0::IBase::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::IBase::interfaceDescriptor() generates (string)
+                 U android::hidl::base::V1_0::IBase::notifySyspropsChanged()
+                 U android::hidl::base::V1_0::IBase::setHALInstrumentation()
+                 U android::hidl::base::V1_0::IBase::ping()
+                 U android::hidl::base::V1_0::IBase::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::BnHwBase::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+                 U android::hidl::base::V1_0::BnHwBase::BnHwBase(android::sp<android::hidl::base::V1_0::IBase> const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_ping(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_debug(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_getDebugInfo(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_getHashChain(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_interfaceChain(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_interfaceDescriptor(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (string)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_notifySyspropsChanged(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_setHALInstrumentation(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*)
+                 U android::RefBase::onFirstRef()
+                 U android::RefBase::weakref_type::decWeak(void const*)
+                 U android::RefBase::onLastWeakRef(void const*)
+                 U android::RefBase::onLastStrongRef(void const*)
+                 U android::RefBase::onIncStrongAttempted(unsigned int, void const*)
+                 U android::RefBase::RefBase()
+                 U android::RefBase::~RefBase()
+                 U android::hardware::IInterface::asBinder(android::hardware::IInterface const*)
+                 U android::hardware::IInterface::IInterface()
+                 U android::hardware::IInterface::~IInterface()
+                 U android::hardware::IInterface::~IInterface()
+                 U android::hardware::IInterface::~IInterface()
+0000000000016560 W android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback> android::hardware::fromBinder<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback, vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback, vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback>(android::sp<android::hardware::IBinder> const&)
+                 U android::hardware::BpHwRefBase::onFirstRef()
+                 U android::hardware::BpHwRefBase::onLastStrongRef(void const*)
+                 U android::hardware::BpHwRefBase::onIncStrongAttempted(unsigned int, void const*)
+                 U android::hardware::BpHwRefBase::BpHwRefBase(android::sp<android::hardware::IBinder> const&)
+                 U android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U android::hardware::hidl_string::hidl_string(char const*)
+                 U android::hardware::hidl_string::hidl_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hardware::hidl_string::hidl_string()
+                 U android::hardware::hidl_string::~hidl_string()
+                 U android::hardware::hidl_string::operator=(string)
+                 U android::hardware::ProcessState::startThreadPool()
+                 U android::hardware::ProcessState::self()
+                 U android::hardware::writeToParcel(android::hardware::Status const&, android::hardware::Parcel*)
+                 U android::hardware::readFromParcel(android::hardware::Status*, android::hardware::Parcel const&)
+                 U android::hardware::getRequestingSid(android::sp<android::hidl::base::V1_0::IBase> const&)
+                 U android::hardware::defaultServiceManager()
+                 U android::hardware::getMinSchedulerPolicy(android::sp<android::hidl::base::V1_0::IBase> const&)
+                 U android::hardware::writeEmbeddedToParcel(string, android::hardware::Parcel*, unsigned long, unsigned long)
+                 U android::hardware::readEmbeddedFromParcel(string, android::hardware::Parcel const&, unsigned long, unsigned long)
+                 U android::hardware::getOrCreateCachedBinder(android::hidl::base::V1_0::IBase*)
+                 U android::hardware::hidl_binder_death_recipient::getRecipient()
+                 U android::hardware::hidl_binder_death_recipient::hidl_binder_death_recipient(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long, android::sp<android::hidl::base::V1_0::IBase> const&)
+                 U android::hardware::Parcel::writeFloat(float)
+                 U android::hardware::Parcel::writeBuffer(void const*, unsigned long, unsigned long*)
+                 U android::hardware::Parcel::writeUint32(unsigned int)
+                 U android::hardware::Parcel::writeStrongBinder(android::sp<android::hardware::IBinder> const&)
+                 U android::hardware::Parcel::writeInterfaceToken(char const*)
+                 U android::hardware::Parcel::Parcel()
+                 U android::hardware::Parcel::~Parcel()
+                 U android::hardware::Status::setFromStatusT(int)
+                 U android::hardware::Status::fromExceptionCode(int)
+                 U android::hardware::Status::fromExceptionCode(int, char const*)
+                 U android::hardware::Status::ok()
+                 U android::hardware::IBinder::localBinder()
+                 U android::hardware::IBinder::remoteBinder()
+                 U android::hardware::IBinder::~IBinder()
+                 U android::hardware::IBinder::~IBinder()
+                 U android::hardware::details::TaskRunner::push(std::__1::function<void ()> const&)
+                 U android::hardware::details::TaskRunner::start(unsigned long)
+                 U android::hardware::details::TaskRunner::TaskRunner()
+                 U android::hardware::details::TaskRunner::~TaskRunner()
+                 U android::hardware::details::debuggable()
+0000000000014660 W android::hardware::Return<android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry> > android::hardware::details::castInterface<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry, android::hidl::base::V1_0::IBase, vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry>(android::sp<android::hidl::base::V1_0::IBase>, char const*, bool)
+000000000000eccc W android::hardware::Return<android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback> > android::hardware::details::castInterface<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback, android::hidl::base::V1_0::IBase, vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback>(android::sp<android::hidl::base::V1_0::IBase>, char const*, bool)
+                 U android::hardware::details::return_status::~return_status()
+                 U android::hardware::details::return_status::operator=(android::hardware::details::return_status&&)
+                 U android::hardware::details::logAlwaysFatal(char const*)
+0000000000018b18 W android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback> android::hardware::details::wrapPassthrough<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback, void>(android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback>)
+                 U android::hardware::details::HidlInstrumentor::configureInstrumentation(bool)
+                 U android::hardware::details::HidlInstrumentor::HidlInstrumentor(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hardware::details::HidlInstrumentor::~HidlInstrumentor()
+                 U android::hardware::details::canCastInterface(android::hidl::base::V1_0::IBase*, char const*, bool)
+                 U android::hardware::details::getPidIfSharable()
+0000000000016f88 W android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry> android::hardware::details::getServiceInternal<vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry, vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry, void, void>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+0000000000011288 W android::sp<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback> android::hardware::details::getServiceInternal<vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback, vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback, void, void>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+                 U android::hardware::details::getBnConstructorMap()
+                 U android::hardware::details::getBsConstructorMap()
+                 U android::hardware::details::getRawServiceInternal(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+                 U android::hardware::details::wrapPassthroughInternal(android::sp<android::hidl::base::V1_0::IBase>)
+                 U android::hardware::details::registerAsServiceInternal(android::sp<android::hidl::base::V1_0::IBase> const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hardware::details::gBnMap
+                 U android::hardware::BHwBinder::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+                 U android::hardware::BHwBinder::linkToDeath(android::sp<android::hardware::IBinder::DeathRecipient> const&, void*, unsigned int)
+                 U android::hardware::BHwBinder::localBinder()
+                 U android::hardware::BHwBinder::attachObject(void const*, void*, void*, void (*)(void const*, void*, void*))
+                 U android::hardware::BHwBinder::detachObject(void const*)
+                 U android::hardware::BHwBinder::unlinkToDeath(android::wp<android::hardware::IBinder::DeathRecipient> const&, void*, unsigned int, android::wp<android::hardware::IBinder::DeathRecipient>*)
+                 U android::hardware::BHwBinder::setRequestingSid(bool)
+                 U android::hardware::BHwBinder::transact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+                 U android::hardware::BHwBinder::~BHwBinder()
+                 U android::hardware::BHwBinder::~BHwBinder()
+                 U android::hidl::base::V1_0::BnHwBase::checkSubclass(void const*) const
+                 U android::RefBase::createWeak(void const*) const
+                 U android::RefBase::getWeakRefs() const
+                 U android::RefBase::decStrong(void const*) const
+                 U android::RefBase::incStrong(void const*) const
+                 U android::hardware::Parcel::readBuffer(unsigned long, unsigned long*, void const**) const
+                 U android::hardware::Parcel::readUint32(unsigned int*) const
+                 U android::hardware::Parcel::enforceInterface(char const*) const
+                 U android::hardware::Parcel::readNullableStrongBinder(android::sp<android::hardware::IBinder>*) const
+                 U android::hardware::Parcel::readFloat(float*) const
+                 U android::hardware::IBinder::checkSubclass(void const*) const
+                 U android::hardware::details::return_status::onValueRetrieval() const
+                 U android::hardware::details::return_status::assertOk() const
+                 U android::hardware::BHwBinder::findObject(void const*) const
+                 U std::__1::__vector_base_common<true>::__throw_length_error() const
+                 U std::__1::__basic_string_common<true>::__throw_length_error() const
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000000000013194 W void std::__1::__tree_remove<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+0000000000012aa0 W void std::__1::__tree_balance_after_insert<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+                 U std::__1::mutex::lock()
+                 U std::__1::mutex::unlock()
+                 U std::__1::mutex::~mutex()
+0000000000012d7c W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::__find_equal<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00000000000135b8 W std::__1::__tree_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, void*>*, long> std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::find<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00000000000136cc W std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::erase(std::__1::__tree_const_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, void*>*, long>)
+0000000000012980 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::__find_equal<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000000000012fb0 W std::__1::__tree_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, void*>*, long> std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::find<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00000000000130c4 W std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::erase(std::__1::__tree_const_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, void*>*, long>)
+00000000000138b0 W void std::__1::vector<android::sp<android::hardware::hidl_binder_death_recipient>, std::__1::allocator<android::sp<android::hardware::hidl_binder_death_recipient> > >::__push_back_slow_path<android::sp<android::hardware::hidl_binder_death_recipient> >(android::sp<android::hardware::hidl_binder_death_recipient>&&)
+000000000001b540 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry
+000000000001bd50 V construction vtable for vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry-in-vendor::surface::displaytelemetry::V1_0::BsDisplayTelemetry
+000000000001bab8 D construction vtable for android::hidl::base::V1_0::BnHwBase-in-vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry
+000000000001bc78 D construction vtable for android::hardware::IBinder-in-vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry
+000000000001bb98 D construction vtable for android::hardware::BHwBinder-in-vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry
+000000000001b890 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry
+000000000001b628 D construction vtable for android::hardware::BpInterface<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry>-in-vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry
+000000000001b798 D construction vtable for vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry-in-vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry
+000000000001ba10 D construction vtable for android::hardware::BpHwRefBase-in-vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry
+000000000001b978 D construction vtable for android::hardware::IInterface-in-vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry
+000000000001a590 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback
+000000000001ada0 V construction vtable for vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback-in-vendor::surface::displaytelemetry::V1_0::BsDisplayTelemetryClientCallback
+000000000001ab08 D construction vtable for android::hidl::base::V1_0::BnHwBase-in-vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback
+000000000001acc8 D construction vtable for android::hardware::IBinder-in-vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback
+000000000001abe8 D construction vtable for android::hardware::BHwBinder-in-vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback
+000000000001a8e0 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback
+000000000001a678 D construction vtable for android::hardware::BpInterface<vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback>-in-vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback
+000000000001a7e8 D construction vtable for vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback-in-vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback
+000000000001aa60 D construction vtable for android::hardware::BpHwRefBase-in-vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback
+000000000001a9c8 D construction vtable for android::hardware::IInterface-in-vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback
+000000000001b520 D VTT for vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry
+000000000001b2d0 D VTT for vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry
+000000000001b150 D VTT for vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry
+000000000001a570 D VTT for vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback
+000000000001a320 D VTT for vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback
+000000000001a1a0 D VTT for vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback
+000000000001b428 D vtable for vendor::surface::displaytelemetry::V1_0::IDisplayTelemetry
+000000000001b310 V vtable for vendor::surface::displaytelemetry::V1_0::BsDisplayTelemetry
+000000000001b1d0 D vtable for vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry
+000000000001afb8 D vtable for vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry
+000000000001a478 D vtable for vendor::surface::displaytelemetry::V1_0::IDisplayTelemetryClientCallback
+000000000001a360 V vtable for vendor::surface::displaytelemetry::V1_0::BsDisplayTelemetryClientCallback
+000000000001a220 D vtable for vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback
+000000000001a008 D vtable for vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback
+0000000000014c78 T non-virtual thunk to vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::onLastStrongRef(void const*)
+000000000000f2fc T non-virtual thunk to vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::onLastStrongRef(void const*)
+00000000000162c4 T non-virtual thunk to vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::~BnHwDisplayTelemetry()
+0000000000016228 T non-virtual thunk to vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::~BnHwDisplayTelemetry()
+00000000000108d0 T non-virtual thunk to vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::~BnHwDisplayTelemetryClientCallback()
+0000000000010834 T non-virtual thunk to vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::~BnHwDisplayTelemetryClientCallback()
+0000000000016300 T virtual thunk to vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::~BnHwDisplayTelemetry()
+0000000000016258 T virtual thunk to vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetry::~BnHwDisplayTelemetry()
+000000000001090c T virtual thunk to vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::~BnHwDisplayTelemetryClientCallback()
+0000000000010864 T virtual thunk to vendor::surface::displaytelemetry::V1_0::BnHwDisplayTelemetryClientCallback::~BnHwDisplayTelemetryClientCallback()
+                 U virtual thunk to android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U virtual thunk to android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U virtual thunk to android::hardware::IInterface::~IInterface()
+                 U virtual thunk to android::hardware::IInterface::~IInterface()
+                 U virtual thunk to android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U virtual thunk to android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U virtual thunk to android::hardware::IBinder::~IBinder()
+                 U virtual thunk to android::hardware::IBinder::~IBinder()
+                 U virtual thunk to android::hardware::BHwBinder::~BHwBinder()
+                 U virtual thunk to android::hardware::BHwBinder::~BHwBinder()
+                 U virtual thunk to android::hardware::BpHwRefBase::onFirstRef()
+0000000000014d10 T virtual thunk to vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetry::onLastStrongRef(void const*)
+000000000000f394 T virtual thunk to vendor::surface::displaytelemetry::V1_0::BpHwDisplayTelemetryClientCallback::onLastStrongRef(void const*)
+                 U virtual thunk to android::hardware::BpHwRefBase::onLastStrongRef(void const*)
+                 U virtual thunk to android::hardware::BpHwRefBase::onIncStrongAttempted(unsigned int, void const*)
+                 U operator delete[](void*)
+                 U operator delete(void*)
+                 U operator new[](unsigned long)
+                 U operator new(unsigned long)
+                 U __cxa_finalize
+                 U __cxa_pure_virtual
+                 U __stack_chk_fail
+                 U abort
+                 U atrace_begin_body
+                 U atrace_end_body
+                 U atrace_get_enabled_tags
+                 U memcmp
+                 U memcpy
+                 U memset
+                 U strlen
