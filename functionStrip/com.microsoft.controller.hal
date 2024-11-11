@@ -1,0 +1,491 @@
+000000000009b7b8 T GetCameraMasterControllerInstance
+0000000000092318 T ChiMetadata::Initialize(unsigned int const*, unsigned int, int)
+0000000000093dc8 T ChiMetadata::Invalidate()
+0000000000093ef8 T ChiMetadata::AddReference(char const*)
+0000000000093d70 T ChiMetadata::PrintDetails()
+0000000000093e78 T ChiMetadata::ReferenceCount()
+00000000000931c8 T ChiMetadata::DestroyInternal(bool)
+000000000009bab0 T ChiMetadata::ReadDataFromFile(char const*, std::__1::vector<unsigned char, std::__1::allocator<unsigned char> >&)
+0000000000094238 T ChiMetadata::ReleaseReference(char const*)
+0000000000093d18 T ChiMetadata::DumpDetailsToFile(char const*)
+0000000000093540 T ChiMetadata::SetAndroidMetadata(camera_metadata const*)
+000000000009bae8 T ChiMetadata::DumpAndroidMetadata(camera_metadata const*, char const*)
+0000000000092888 T ChiMetadata::ParseAndSetMetadata(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> >&)
+00000000000945d8 T ChiMetadata::ReleaseAllReferences(int)
+000000000009baa8 T ChiMetadata::InitializeMetadataOps(ChiMetadataOps*)
+0000000000093e20 T ChiMetadata::IsMultiCameraMetadata()
+00000000000937d8 T ChiMetadata::MergeMultiCameraMetadata(unsigned int, ChiMetadata**, unsigned int*, unsigned int)
+0000000000093c90 T ChiMetadata::TranslateToCameraMetadata(camera_metadata*, bool, bool, unsigned int, unsigned int*)
+00000000000939d0 T ChiMetadata::TranslateToCameraPartialMetadata(camera_metadata*, unsigned int*, unsigned int)
+00000000000938f0 T ChiMetadata::Copy(ChiMetadata&, bool)
+0000000000093950 T ChiMetadata::Clone()
+0000000000093678 T ChiMetadata::Count()
+0000000000093750 T ChiMetadata::Merge(ChiMetadata&, bool)
+00000000000936f8 T ChiMetadata::Reset()
+000000000009bae0 T ChiMetadata::Create(char const*)
+000000000009baa0 T ChiMetadata::Create(unsigned int const*, unsigned int, bool, ChiMetadataManager*, unsigned int)
+00000000000933f0 T ChiMetadata::GetTag(char const*, char const*, unsigned int)
+0000000000093390 T ChiMetadata::GetTag(unsigned int, ChiMetadataEntry&)
+00000000000932f8 T ChiMetadata::GetTag(unsigned int, unsigned int)
+0000000000093598 T ChiMetadata::SetTag(char const*, char const*, void const*, unsigned int, unsigned int)
+0000000000092ce0 T ChiMetadata::SetTag(unsigned int, void const*, unsigned int, unsigned int)
+0000000000093090 T ChiMetadata::Destroy(bool)
+00000000000947b0 T ChiMetadata::Iterator::Get(ChiMetadataEntry&)
+0000000000094748 T ChiMetadata::Iterator::Next()
+00000000000946e0 T ChiMetadata::Iterator::Begin()
+0000000000094630 T ChiMetadata::Iterator::Iterator(ChiMetadata&)
+0000000000094630 T ChiMetadata::Iterator::Iterator(ChiMetadata&)
+0000000000094688 T ChiMetadata::Iterator::~Iterator()
+0000000000094688 T ChiMetadata::Iterator::~Iterator()
+0000000000093620 T ChiMetadata::DeleteTag(unsigned int)
+                 U PerceptionCore::Create()
+                 U PerceptionCore::Destroy(PerceptionCore*)
+                 U ExtensionModule::GetInstance()
+                 U ExtensionModule::GetMetadataOps(ChiMetadataOps*)
+                 U ExtensionModule::GetVendorTagOps(ChiVendorTagsOps*)
+                 U ExtensionModule::GetBufferAllocator(ChiStream*, void**)
+                 U ExtensionModule::GetAvailableRequestKeys(unsigned int, unsigned int*, unsigned int, unsigned int*)
+                 U UsecaseSelector::IsHEIFStream(camera3_stream const*)
+                 U UsecaseSelector::IsVideoStream(camera3_stream const*)
+                 U UsecaseSelector::IsPreviewStream(camera3_stream const*)
+                 U UsecaseSelector::IsYUVSnapshotStream(camera3_stream const*)
+                 U UsecaseSelector::IsHeicSnapshotStream(camera3_stream const*)
+                 U UsecaseSelector::IsJPEGSnapshotStream(camera3_stream const*)
+                 U UsecaseSelector::IsYUVOutResThreshold(ChiStream*)
+00000000000956c0 T ChiMetadataManager::Initialize()
+0000000000095020 T ChiMetadataManager::MetaClient::MetaHolder::MetaHolder(ChiMetadata*)
+0000000000095020 T ChiMetadataManager::MetaClient::MetaHolder::MetaHolder(ChiMetadata*)
+0000000000094d00 T ChiMetadataManager::MetaClient::TrackBuffers(std::__1::chrono::time_point<std::__1::chrono::steady_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l> > >&, unsigned int)
+0000000000094ab0 T ChiMetadataManager::MetaClient::ReleaseBuffers()
+0000000000095030 T ChiMetadataManager::MetaClient::AllocateBuffers(unsigned int*, unsigned int, unsigned int, unsigned int, unsigned int)
+0000000000094a10 T ChiMetadataManager::MetaClient::SubClient::SubClient()
+0000000000094a10 T ChiMetadataManager::MetaClient::SubClient::SubClient()
+0000000000094878 T ChiMetadataManager::MetaClient::MetaClient()
+0000000000094878 T ChiMetadataManager::MetaClient::MetaClient()
+0000000000094a20 T ChiMetadataManager::MetaClient::~MetaClient()
+0000000000094a20 T ChiMetadataManager::MetaClient::~MetaClient()
+000000000009bb00 T ChiMetadataManager::IsFreeClient(ChiMetadataManager::MetaClient const&)
+000000000009a168 T ChiMetadataManager::TrackBuffers(std::__1::chrono::time_point<std::__1::chrono::steady_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l> > >&)
+0000000000098d78 T ChiMetadataManager::GetFreeHolder(unsigned int, unsigned int, unsigned int, std::__1::chrono::time_point<std::__1::chrono::steady_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l> > >&)
+000000000009a418 T ChiMetadataManager::ReleaseHolder(unsigned int, unsigned int, ChiMetadata*)
+0000000000098b78 T ChiMetadataManager::SetPipelineId(unsigned int, unsigned int)
+0000000000097090 T ChiMetadataManager::RegisterClient(int, unsigned int*, unsigned int, unsigned int, unsigned int, ChiMetadataUsage)
+000000000009baf8 T ChiMetadataManager::IsFreeSubClient(ChiMetadataManager::MetaClient::SubClient const&)
+000000000009bb08 T ChiMetadataManager::IsOfflineClient(ChiMetadataManager::MetaClient const&)
+000000000009b728 T ChiMetadataManager::PrintAllBuffers(unsigned int)
+000000000009b1a0 T ChiMetadataManager::PrintAllBuffers(unsigned int, unsigned int)
+000000000009bb04 T ChiMetadataManager::IsRealtimeClient(ChiMetadataManager::MetaClient const&)
+0000000000098878 T ChiMetadataManager::UnregisterClient(unsigned int)
+0000000000098858 T ChiMetadataManager::RetrievePartialTags(unsigned int)
+0000000000097750 T ChiMetadataManager::RegisterSharedClient(unsigned int*, unsigned int, unsigned int, ChiMetadataUsage)
+00000000000954c8 T ChiMetadataManager::AndroidMetadataHolder::AndroidMetadataHolder(camera_metadata*, bool, bool)
+00000000000954b8 T ChiMetadataManager::AndroidMetadataHolder::AndroidMetadataHolder()
+00000000000954c8 T ChiMetadataManager::AndroidMetadataHolder::AndroidMetadataHolder(camera_metadata*, bool, bool)
+00000000000954b8 T ChiMetadataManager::AndroidMetadataHolder::AndroidMetadataHolder()
+00000000000954e0 T ChiMetadataManager::AndroidMetadataHolder::~AndroidMetadataHolder()
+00000000000954e0 T ChiMetadataManager::AndroidMetadataHolder::~AndroidMetadataHolder()
+000000000009a2d8 T ChiMetadataManager::GetMetadataFromHandle(void*)
+000000000009a760 T ChiMetadataManager::ReleaseHolderByHandle(unsigned int, unsigned int, void*)
+00000000000972f0 T ChiMetadataManager::RegisterExclusiveClient(unsigned int*, unsigned int, unsigned int, ChiMetadataUsage)
+0000000000098868 T ChiMetadataManager::RetrievePartialTagCount(unsigned int)
+0000000000099a10 T ChiMetadataManager::RestoreNonstickyMetadata(camera_metadata const*, ChiMetadata*)
+00000000000963f0 T ChiMetadataManager::AllocateFrameworkMetadata(unsigned int, unsigned int, bool, unsigned int, unsigned int)
+0000000000096b18 T ChiMetadataManager::InitializeFrameworkInputClient(unsigned int, bool)
+000000000009a9f0 T ChiMetadataManager::GetAndroidFrameworkOutputMetadata(bool)
+000000000009af78 T ChiMetadataManager::ReleaseAndroidFrameworkOutputMetadata(camera_metadata const*)
+00000000000998b0 T ChiMetadataManager::Get(unsigned int, unsigned int)
+00000000000989b0 T ChiMetadataManager::Flush()
+000000000009baf0 T ChiMetadataManager::Create(unsigned int, unsigned int)
+0000000000096ae8 T ChiMetadataManager::Destroy()
+000000000009a6c8 T ChiMetadataManager::Release(ChiMetadata*)
+0000000000099b78 T ChiMetadataManager::GetInput(camera_metadata const*, unsigned int, bool, bool)
+0000000000096868 T ChiMetadataManager::ChiMetadataManager(unsigned int, unsigned int, unsigned int)
+0000000000096868 T ChiMetadataManager::ChiMetadataManager(unsigned int, unsigned int, unsigned int)
+00000000000960b0 T ChiMetadataManager::~ChiMetadataManager()
+00000000000960b0 T ChiMetadataManager::~ChiMetadataManager()
+000000000009b770 T CameraMasterController::GetInstance()
+00000000000751d0 T CameraMasterController::InitializeHTP()
+0000000000073008 T CameraMasterController::DeInitializeHTP()
+0000000000073230 T CameraMasterController::SetThermalLevel(unsigned int)
+0000000000072150 T CameraMasterController::OnSetStreamIntent(unsigned int, ChiStream**)
+0000000000073ad0 T CameraMasterController::OnDestroyExtension()
+00000000000712c0 T CameraMasterController::UpdateSnapShotInfo(CmcShotConfiguration_t&, ChiMetadata*, unsigned int)
+0000000000073660 T CameraMasterController::StartDeferredThread()
+0000000000073270 T CameraMasterController::UpdateBurstShotInfo(int)
+00000000000722d0 T CameraMasterController::GetShotConfiguration(char const*)
+0000000000072190 T CameraMasterController::GetShotConfiguration(int)
+000000000006dd20 T CameraMasterController::OnUpdateCapabilities(LogicalCameraInfo const*, camera_metadata const*, unsigned int, camera_metadata const**, camera_metadata*, unsigned int, unsigned int*)
+0000000000074f60 T CameraMasterController::DeferredRequestThread()
+000000000006f888 T CameraMasterController::GetStreamCropZoomRatio()
+00000000000718b8 T CameraMasterController::OnUpdateResultMetadata(ChiMetadata*, unsigned int, char const*, unsigned int)
+0000000000074ac0 T CameraMasterController::ParseJsonConfiguration()
+000000000006f890 T CameraMasterController::OnUpdateRequestMetadata(ChiMetadata*, unsigned int, char const*, unsigned int)
+0000000000071858 T CameraMasterController::TeardownOverrideSession()
+00000000000700e8 T CameraMasterController::UpdateRequestQueueDepth(unsigned int)
+0000000000070e98 T CameraMasterController::Apply3AWarmStartSettings(ChiMetadata*, unsigned int, char const*)
+0000000000074e20 T CameraMasterController::InitializePerceptionCore()
+000000000009b7a8 T CameraMasterController::RequestThreadDeferredOps(void*)
+000000000006ee70 T CameraMasterController::OverrideInitializeSession(unsigned int, camera3_stream_configuration*)
+0000000000072fc8 T CameraMasterController::DeinitializePerceptionCore()
+0000000000071c50 T CameraMasterController::OnUpdateTransitionMetadata(ChiMetadata*, ChiTransitionMetadata&)
+0000000000074ca8 T CameraMasterController::Parse3AWarmStartSettingsJson()
+0000000000071bb0 T CameraMasterController::OnUpdatePartialResultMetadata(camera_metadata const*, unsigned int, char const*, unsigned int)
+00000000000705c8 T CameraMasterController::PublishMorphoAlgorithmsConfig(ChiMetadata*, char const*)
+00000000000701d8 T CameraMasterController::PublishMorphoStereoBokehAlgorithmsConfig(ChiMetadata*, bool)
+00000000000732f0 T CameraMasterController::CameraMasterController(std::__1::shared_ptr<IStateMachine> const&, std::__1::shared_ptr<ICmcVendorTagManager> const&, std::__1::shared_ptr<IChiMetadataWrapper> const&, std::__1::shared_ptr<IExtensionModuleWrapper> const&, std::__1::shared_ptr<ICmcConfig> const&)
+00000000000732f0 T CameraMasterController::CameraMasterController(std::__1::shared_ptr<IStateMachine> const&, std::__1::shared_ptr<ICmcVendorTagManager> const&, std::__1::shared_ptr<IChiMetadataWrapper> const&, std::__1::shared_ptr<IExtensionModuleWrapper> const&, std::__1::shared_ptr<ICmcConfig> const&)
+00000000000731e8 T CameraMasterController::~CameraMasterController()
+0000000000072bb0 T CameraMasterController::~CameraMasterController()
+0000000000072bb0 T CameraMasterController::~CameraMasterController()
+                 U Json::StyledWriter::write(Json::Value const&)
+                 U Json::StyledWriter::StyledWriter()
+                 U Json::Value::Value(Json::ValueType)
+                 U Json::Value::Value(char const*)
+                 U Json::Value::Value(Json::Value const&)
+                 U Json::Value::Value(double)
+                 U Json::Value::Value(int)
+                 U Json::Value::~Value()
+                 U Json::Value::operator=(Json::Value)
+                 U Json::Value::operator[](char const*)
+                 U Json::Value::operator[](int)
+                 U Json::Reader::parse(char const*, char const*, Json::Value&, bool)
+                 U Json::Reader::Reader()
+                 U Json::Writer::~Writer()
+0000000000089bc0 T Mutex::Initialize()
+0000000000089cd0 T Mutex::GetNativeHandle()
+0000000000089c98 T Mutex::Lock()
+000000000009b7c8 T Mutex::Create()
+0000000000089cc8 T Mutex::Unlock()
+0000000000089c60 T Mutex::Destroy()
+0000000000089ca0 T Mutex::TryLock()
+                 U ChiLog::LogSystem(char const*, char const*, char const*, char const*, int, char const*, ...)
+                 U android::hardware::hidl_string::hidl_string(char const*)
+                 U android::hardware::hidl_string::hidl_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hardware::hidl_string::~hidl_string()
+000000000009bab8 W CdkUtils::FOpen(char const*, char const*)
+000000000009bad0 W CdkUtils::FRead(void*, unsigned long, unsigned long, unsigned long, __sFILE*)
+000000000009bac0 W CdkUtils::FSeek(__sFILE*, long, int)
+000000000009bac8 W CdkUtils::FTell(__sFILE*)
+000000000009bad8 W CdkUtils::FClose(__sFILE*)
+000000000009b768 W CdkUtils::StrCmp(char const*, char const*)
+000000000009ba38 W CdkUtils::StrLen(char const*)
+000000000009b964 T ChxUtils::GetDDRRank()
+000000000009b968 T ChxUtils::GetDDRType()
+000000000009ba70 T ChxUtils::GetZSLMode(ChiMetadata*)
+000000000009b898 T ChxUtils::LibGetAddr(void*, char const*)
+000000000009b818 T ChxUtils::GetFileName(char const*)
+000000000009b96c T ChxUtils::Is32bitMode()
+000000000009b888 T ChxUtils::AtomicDecU32(unsigned int volatile*)
+000000000009b884 T ChxUtils::AtomicIncU32(unsigned int volatile*)
+000000000009b7f0 T ChxUtils::FEqualCoarse(float, float)
+000000000009b9d8 T ChxUtils::FillCameraId(ChiMetadata*, unsigned int)
+000000000009ba74 T ChxUtils::GetFlashMode(ChiMetadata*)
+000000000009b9c0 T ChxUtils::GetSceneMode(ChiMetadata*, unsigned int*)
+000000000009b848 T ChxUtils::ThreadCreate(void* (*)(void*), void*, long*)
+000000000009b880 T ChxUtils::AtomicLoadU32(unsigned int volatile*)
+000000000009b870 T ChxUtils::AtomicLoadU64(unsigned long volatile*)
+000000000009b860 T ChxUtils::AtomicStore64(long volatile*, long)
+000000000009b9f0 T ChxUtils::DebugDataSize(DebugDataType)
+000000000009b9c8 T ChxUtils::GetEffectMode(ChiMetadata*, unsigned int*)
+000000000009b850 T ChxUtils::ThreadSetName(long, char const*)
+000000000009b800 T ChxUtils::AlignGeneric32(unsigned int, unsigned int)
+000000000009b878 T ChxUtils::AtomicStoreU32(unsigned int volatile*, unsigned int)
+000000000009b868 T ChxUtils::AtomicStoreU64(unsigned long volatile*, unsigned long)
+000000000009b928 T ChxUtils::GetUsecaseMode(camera3_capture_request*)
+000000000009b990 T ChxUtils::AndroidMetadata::GetZSLMode(void*)
+000000000009b988 T ChxUtils::AndroidMetadata::GetFpsRange(void const*, int*, int*)
+000000000009b980 T ChxUtils::AndroidMetadata::FillCameraId(void*, unsigned int)
+000000000009b8d4 T ChxUtils::AndroidMetadata::FreeMetaData(void*)
+000000000009b998 T ChxUtils::AndroidMetadata::GetBokehMode(void const*)
+000000000009b938 T ChxUtils::AndroidMetadata::GetSceneMode(void*, unsigned int*)
+000000000009b9b0 T ChxUtils::AndroidMetadata::GetTimeStamp(camera_metadata*)
+000000000009b948 T ChxUtils::AndroidMetadata::GetEffectMode(void*, unsigned int*)
+000000000009b8c8 T ChxUtils::AndroidMetadata::MergeMetadata(void*, void*)
+000000000009b8d8 T ChxUtils::AndroidMetadata::ResetMetadata(camera_metadata*)
+000000000009b8f8 T ChxUtils::AndroidMetadata::GetFeature1Mode(void*, unsigned int*)
+000000000009b9a8 T ChxUtils::AndroidMetadata::UpdateTimeStamp(camera_metadata*, unsigned long, unsigned int)
+000000000009b8e0 T ChxUtils::AndroidMetadata::AllocateMetaData(unsigned int, unsigned int)
+000000000009b8b8 T ChxUtils::AndroidMetadata::GetVendorTagValue(void const*, VendorTag, void**)
+000000000009b8c0 T ChxUtils::AndroidMetadata::SetVendorTagValue(void*, VendorTag, unsigned int, void*)
+000000000009b9a0 T ChxUtils::AndroidMetadata::FillTuningModeData(void*, camera3_capture_request*, unsigned int, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+000000000009b8a8 T ChxUtils::AndroidMetadata::IsVendorTagPresent(void const*, VendorTag)
+000000000009b8f0 T ChxUtils::AndroidMetadata::AllocateCopyMetaData(void const*)
+000000000009b8b0 T ChxUtils::AndroidMetadata::IsLongExposureCapture(void const*)
+000000000009b8e8 T ChxUtils::AndroidMetadata::AllocateAppendMetaData(void const*, unsigned int, unsigned int)
+000000000009b900 T ChxUtils::AndroidMetadata::GetMetadataOwnerCameraId(void*)
+000000000009b7ec T ChxUtils::EvenFloorUINT32(unsigned int)
+000000000009b9d0 T ChxUtils::GetFeature1Mode(ChiMetadata*, unsigned int*)
+000000000009b908 T ChxUtils::GetFeature2Mode(unsigned int*)
+000000000009b950 T ChxUtils::NativeFenceWait(int, unsigned int)
+000000000009b858 T ChxUtils::ThreadTerminate(long)
+000000000009ba10 T ChxUtils::UpdateTimeStamp(ChiMetadata*, unsigned long, unsigned int)
+000000000009ba08 T ChxUtils::MatchAspectRatio(CHIDimension const*, CHIDimension*)
+000000000009b7e8 T ChxUtils::EvenCeilingUINT32(unsigned int)
+000000000009b940 T ChxUtils::GetVendorTagValue(ChiMetadata*, VendorTag, void**)
+000000000009ba90 T ChxUtils::IsSnapshotRequest(camera3_capture_request*, unsigned long)
+000000000009b9b8 T ChxUtils::SetVendorTagValue(ChiMetadata*, VendorTag, unsigned int, void*)
+000000000009b890 T ChxUtils::SleepMicroseconds(unsigned int)
+000000000009b9e0 T ChxUtils::FillTuningModeData(ChiMetadata*, ChiModeUsecaseSubModeType, unsigned int, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+000000000009ba88 T ChxUtils::GetFeature1SubMode(ChiMetadata*, unsigned int&)
+000000000009ba78 T ChxUtils::GetFlashFiredState(ChiMetadata*)
+000000000009ba80 T ChxUtils::IsSnapshotMetadata(ChiMetadata*)
+000000000009ba18 T ChxUtils::IsVendorTagPresent(ChiMetadata*, VendorTag)
+000000000009ba60 T ChxUtils::SetStreamDimension(ChiMetadata*, char const*, unsigned int, unsigned int)
+000000000009b970 T ChxUtils::WaitOnAcquireFence(ChiStreamBuffer const*)
+000000000009b978 T ChxUtils::WaitOnAcquireFence(camera3_stream_buffer const*)
+000000000009ba20 T ChxUtils::HasInputBufferError(ChiPipelineRequest*)
+000000000009b9f8 T ChxUtils::DebugDataAllocBuffer(DebugData*)
+000000000009ba30 T ChxUtils::GetCameraIdFromStream(ChiStream const*)
+000000000009ba7c T ChxUtils::GetCaptureIntentValue(ChiMetadata*)
+000000000009ba00 T ChxUtils::GetPartialResultCount(PartialResultSender)
+000000000009b9e8 T ChxUtils::IPEMFHDRDebugDataSize()
+000000000009ba68 T ChxUtils::UpdatePhysicalMetadata(camera_metadata*, ChiMetadata*, CHIRectangle, int, int)
+000000000009ba98 T ChxUtils::isLogicalPreviewStream(ChiCaptureRequest*)
+000000000009ba58 T ChxUtils::UpdateOptimalDimensions(ChiDimension, ChiBufferOptions const&, ChiDimension&)
+000000000009ba28 T ChxUtils::FillDefaultTuningMetadata(ChiMetadata*, ChiModeUsecaseSubModeType, unsigned int)
+000000000009ba50 T ChxUtils::DoesCameraHaveOnlyRawStreams(ChiStreamConfigInfo*, unsigned int)
+000000000009b918 T ChxUtils::PopulateChiToHALStreamBuffer(ChiStreamBuffer const*, camera3_stream_buffer*, int)
+000000000009b910 T ChxUtils::PopulateHALToChiStreamBuffer(camera3_stream_buffer const*, ChiStreamBuffer*, int)
+000000000009b920 T ChxUtils::DeepCopyCamera3CaptureRequest(camera3_capture_request const*, camera3_capture_request*)
+000000000009ba40 T ChxUtils::UpdateMetadataWithInputSettings(ChiMetadata&, ChiMetadata&)
+000000000009ba48 T ChxUtils::UpdateMetadataWithSnapshotSettings(ChiMetadata&)
+000000000009b8d0 T ChxUtils::Free(void*)
+000000000009b958 T ChxUtils::Close(int)
+000000000009b80c T ChxUtils::BitSet(unsigned int, unsigned int)
+000000000009b844 T ChxUtils::Calloc(unsigned long)
+000000000009b8a0 T ChxUtils::LibMap(char const*)
+000000000009b820 T ChxUtils::MemMap(int, unsigned long, unsigned long)
+000000000009b830 T ChxUtils::Memcpy(void*, void const*, unsigned long)
+000000000009b838 T ChxUtils::Memset(void*, int, unsigned long)
+000000000009b810 T ChxUtils::DPrintF(int, char const*, ...)
+000000000009b808 T ChxUtils::BitReset(unsigned int, unsigned int)
+000000000009b7f8 T ChxUtils::IsBitSet(unsigned int, unsigned int)
+000000000009b828 T ChxUtils::MemUnmap(void*, unsigned long)
+000000000009b7e0 T ChxUtils::Downscale(ChiDimension, unsigned int)
+000000000009b804 T ChxUtils::Downscale(unsigned int, unsigned int)
+000000000009b960 T ChxUtils::ReadSocID()
+000000000009b930 T ChxUtils::SkipFrame(camera3_stream_buffer*)
+0000000000089d48 T Condition::Initialize()
+0000000000089db8 T Condition::Wait(pthread_mutex_t*)
+000000000009b7d0 T Condition::Create()
+0000000000089ed8 T Condition::Signal()
+0000000000089d80 T Condition::Destroy()
+0000000000089ee0 T Condition::Broadcast()
+0000000000089dd8 T Condition::TimedWait(pthread_mutex_t*, unsigned int)
+0000000000089f28 T Semaphore::Initialize(int)
+0000000000089f38 T Semaphore::NotifyAllThreads()
+000000000008a110 T Semaphore::WaitForSemaphore()
+000000000008a030 T Semaphore::Reset()
+000000000009b7d8 T Semaphore::Create(int)
+000000000008a3a8 T Semaphore::Destroy()
+0000000000093490 T ChiMetadata::FindTag(unsigned int, camera_metadata_entry*) const
+                 U ExtensionModule::GetAvailableTransitionKeys() const
+                 U Json::Value::size() const
+                 U Json::Value::asInt() const
+                 U Json::Value::empty() const
+                 U Json::Value::isInt() const
+                 U Json::Value::asBool() const
+                 U Json::Value::asUInt() const
+                 U Json::Value::isBool() const
+                 U Json::Value::isUInt() const
+                 U Json::Value::asFloat() const
+                 U Json::Value::isArray() const
+                 U Json::Value::asString() const
+                 U Json::Value::isDouble() const
+                 U Json::Value::isObject() const
+                 U Json::Value::isString() const
+                 U Json::Value::operator[](char const*) const
+                 U Json::Value::operator[](int) const
+                 U Json::Value::operator[](unsigned int) const
+                 U std::__1::__shared_weak_count::__get_deleter(std::type_info const&) const
+                 U std::__1::__vector_base_common<true>::__throw_length_error() const
+                 U std::__1::locale::use_facet(std::__1::locale::id&) const
+                 U std::__1::__next_prime(unsigned long)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__init(char const*, unsigned long)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::append(char const*, unsigned long)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::insert(unsigned long, char const*)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::~basic_string()
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char> >::uflow()
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char> >::xsgetn(char*, long)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char> >::xsputn(char const*, long)
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char> >::showmanyc()
+                 U std::__1::basic_streambuf<char, std::__1::char_traits<char> >::~basic_streambuf()
+                 U std::__1::condition_variable::notify_all()
+                 U std::__1::condition_variable::__do_timed_wait(std::__1::unique_lock<std::__1::mutex>&, std::__1::chrono::time_point<std::__1::chrono::system_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l> > >)
+                 U std::__1::condition_variable::~condition_variable()
+                 U std::__1::__shared_weak_count::__release_weak()
+                 U std::__1::__shared_weak_count::~__shared_weak_count()
+                 U std::__1::mutex::lock()
+                 U std::__1::mutex::unlock()
+                 U std::__1::mutex::~mutex()
+                 U std::__1::chrono::steady_clock::now()
+                 U std::__1::chrono::system_clock::now()
+                 U std::__1::codecvt<char, char, mbstate_t>::id
+                 U std::__1::to_string(int)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > std::__1::operator+<char, std::__1::char_traits<char>, std::__1::allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U std::nothrow
+000000000009d1d8 D vtable for CameraMasterController
+                 U vtable for Json::StyledWriter
+000000000009d250 V vtable for std::__1::basic_filebuf<char, std::__1::char_traits<char> >
+                 U operator delete[](void*)
+000000000009b7c0 T operator delete(void*)
+                 U operator new[](unsigned long)
+000000000009b840 T operator new(unsigned long)
+                 U operator new(unsigned long, std::nothrow_t const&)
+000000000009b7b0 W operator|(PerceptionCore::Scenarios const&, PerceptionCore::Scenarios const&)
+                 U __android_log_print
+000000000009f600 B __bss_start
+0000000000077000 T __cfi_check
+                 U __cfi_slowpath
+                 U __cxa_atexit
+                 U __cxa_finalize
+                 U __cxa_guard_acquire
+                 U __cxa_guard_release
+                 U __errno
+                 U __floatditf
+                 U __lttf2
+                 U __memcpy_chk
+                 U __multf3
+                 U __open_2
+                 U __stack_chk_fail
+                 U __strlcpy_chk
+                 U __strlen_chk
+                 U __strrchr_chk
+000000000005a1f8 T __ubsan_handle_add_overflow_minimal
+000000000005a234 T __ubsan_handle_add_overflow_minimal_abort
+000000000005a1a0 T __ubsan_handle_alignment_assumption_minimal
+000000000005a1dc T __ubsan_handle_alignment_assumption_minimal_abort
+000000000005a460 T __ubsan_handle_builtin_unreachable_minimal
+000000000005a8a0 T __ubsan_handle_cfi_check_fail_minimal
+000000000005a8dc T __ubsan_handle_cfi_check_fail_minimal_abort
+000000000005a358 T __ubsan_handle_divrem_overflow_minimal
+000000000005a394 T __ubsan_handle_divrem_overflow_minimal_abort
+000000000005a530 T __ubsan_handle_float_cast_overflow_minimal
+000000000005a56c T __ubsan_handle_float_cast_overflow_minimal_abort
+000000000005a638 T __ubsan_handle_function_type_mismatch_minimal
+000000000005a674 T __ubsan_handle_function_type_mismatch_minimal_abort
+000000000005a690 T __ubsan_handle_implicit_conversion_minimal
+000000000005a6cc T __ubsan_handle_implicit_conversion_minimal_abort
+000000000005a5e0 T __ubsan_handle_invalid_builtin_minimal
+000000000005a61c T __ubsan_handle_invalid_builtin_minimal_abort
+000000000005a588 T __ubsan_handle_load_invalid_value_minimal
+000000000005a5c4 T __ubsan_handle_load_invalid_value_minimal_abort
+000000000005a49c T __ubsan_handle_missing_return_minimal
+000000000005a2a8 T __ubsan_handle_mul_overflow_minimal
+000000000005a2e4 T __ubsan_handle_mul_overflow_minimal_abort
+000000000005a300 T __ubsan_handle_negate_overflow_minimal
+000000000005a33c T __ubsan_handle_negate_overflow_minimal_abort
+000000000005a6e8 T __ubsan_handle_nonnull_arg_minimal
+000000000005a724 T __ubsan_handle_nonnull_arg_minimal_abort
+000000000005a740 T __ubsan_handle_nonnull_return_minimal
+000000000005a77c T __ubsan_handle_nonnull_return_minimal_abort
+000000000005a798 T __ubsan_handle_nullability_arg_minimal
+000000000005a7d4 T __ubsan_handle_nullability_arg_minimal_abort
+000000000005a7f0 T __ubsan_handle_nullability_return_minimal
+000000000005a82c T __ubsan_handle_nullability_return_minimal_abort
+000000000005a408 T __ubsan_handle_out_of_bounds_minimal
+000000000005a444 T __ubsan_handle_out_of_bounds_minimal_abort
+000000000005a848 T __ubsan_handle_pointer_overflow_minimal
+000000000005a884 T __ubsan_handle_pointer_overflow_minimal_abort
+000000000005a3b0 T __ubsan_handle_shift_out_of_bounds_minimal
+000000000005a3ec T __ubsan_handle_shift_out_of_bounds_minimal_abort
+000000000005a250 T __ubsan_handle_sub_overflow_minimal
+000000000005a28c T __ubsan_handle_sub_overflow_minimal_abort
+000000000005a014 T __ubsan_handle_type_mismatch_minimal
+000000000005a16c T __ubsan_handle_type_mismatch_minimal_abort
+000000000005a4d8 T __ubsan_handle_vla_bound_not_positive_minimal
+000000000005a514 T __ubsan_handle_vla_bound_not_positive_minimal_abort
+000000000009e5f8 D _edata
+00000000000a7cd0 B _end
+                 U abort
+                 U access
+                 U add_camera_metadata_entry
+                 U allocate_camera_metadata
+                 U allocate_copy_camera_metadata_checked
+                 w android_set_abort_message
+                 U append_camera_metadata
+                 U atoi
+                 U calculate_camera_metadata_size
+                 U calloc
+                 U camera_metadata_type_size
+                 U clock_gettime
+                 U close
+                 U delete_camera_metadata_entry
+                 U dlerror
+                 U dlopen
+                 U dlsym
+                 U dump_camera_metadata
+                 U fclose
+                 U fflush
+                 U find_camera_metadata_entry
+                 U find_camera_metadata_ro_entry
+                 U fopen
+                 U fread
+                 U fread_unlocked
+                 U free
+                 U free_camera_metadata
+                 U fseek
+                 U fseeko
+                 U ftell
+                 U ftello
+                 U fwrite
+                 U fwrite_unlocked
+                 U g_enableChxLogs
+                 U g_enableSystemLog
+                 U get_camera_metadata_data_capacity
+                 U get_camera_metadata_data_count
+                 U get_camera_metadata_entry
+                 U get_camera_metadata_entry_capacity
+                 U get_camera_metadata_entry_count
+                 U get_camera_metadata_size
+                 U malloc
+00000000000a693c B maskCmcLogAD
+00000000000a6938 B maskCmcLogDD
+                 U memcmp
+                 U memcpy
+                 U memmove
+                 U memset
+                 U mmap
+                 U morpho_DualCamera_qnnBackendInitialize
+                 U morpho_DualCamera_qnnBackendTerminate
+                 U munmap
+                 U open
+                 U place_camera_metadata
+                 U property_get
+                 U pthread_cond_broadcast
+                 U pthread_cond_destroy
+                 U pthread_cond_init
+                 U pthread_cond_signal
+                 U pthread_cond_timedwait
+                 U pthread_cond_wait
+                 U pthread_create
+                 U pthread_join
+                 U pthread_mutex_destroy
+                 U pthread_mutex_init
+                 U pthread_mutex_lock
+                 U pthread_mutex_trylock
+                 U pthread_mutex_unlock
+                 U pthread_mutexattr_destroy
+                 U pthread_mutexattr_init
+                 U pthread_mutexattr_settype
+                 U pthread_setname_np
+                 U read
+                 U remote_session_control
+                 U strcmp
+                 U strerror
+                 U strlen
+                 U strrchr
+                 U strstr
+                 U strtok_r
+                 U strtol
+                 U sync_wait
+                 U uname
+                 U update_camera_metadata_entry
+                 U usleep
+                 U validate_camera_metadata_structure
+                 U vdprintf
+                 U vsnprintf
+                 U write
