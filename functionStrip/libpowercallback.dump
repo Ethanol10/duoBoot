@@ -1,0 +1,60 @@
+                 U vendor::qti::hardware::perf::V2_1::IPerfCallback::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::qti::hardware::perf::V2_1::IPerfCallback::getDebugInfo(std::__1::function<void (android::hidl::base::V1_0::DebugInfo const&)>)
+                 U vendor::qti::hardware::perf::V2_1::IPerfCallback::getHashChain(std::__1::function<void (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)>)
+                 U vendor::qti::hardware::perf::V2_1::IPerfCallback::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::qti::hardware::perf::V2_1::IPerfCallback::interfaceChain(std::__1::function<void (android::hardware::hidl_vec<android::hardware::hidl_string> const&)>)
+                 U vendor::qti::hardware::perf::V2_1::IPerfCallback::interfaceDescriptor(std::__1::function<void (android::hardware::hidl_string const&)>)
+                 U vendor::qti::hardware::perf::V2_1::IPerfCallback::notifySyspropsChanged()
+                 U vendor::qti::hardware::perf::V2_1::IPerfCallback::setHALInstrumentation()
+                 U vendor::qti::hardware::perf::V2_1::IPerfCallback::ping()
+                 U vendor::qti::hardware::perf::V2_1::IPerfCallback::debug(android::hardware::hidl_handle const&, android::hardware::hidl_vec<android::hardware::hidl_string> const&)
+000000000000426c T vendor::qti::hardware::perf::V2_1::implementation::PowerCallback::notifyCallback(unsigned int, android::hardware::hidl_string const&, int, int, android::hardware::hidl_vec<int> const&)
+00000000000041c8 T vendor::qti::hardware::perf::V2_1::implementation::PowerCallback::PowerCallback()
+0000000000004140 T vendor::qti::hardware::perf::V2_1::implementation::PowerCallback::PowerCallback()
+0000000000004244 T vendor::qti::hardware::perf::V2_1::implementation::PowerCallback::~PowerCallback()
+000000000000423c T vendor::qti::hardware::perf::V2_1::implementation::PowerCallback::~PowerCallback()
+0000000000004358 T vendor::qti::hardware::perf::V2_1::implementation::PowerCallback::~PowerCallback()
+                 U vendor::qti::hardware::perf::V2_1::IPerf::getService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+                 U android::sp_report_stack_pointer()
+                 U android::hidl::base::V1_0::IBase::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U android::hidl::base::V1_0::IBase::getDebugInfo(std::__1::function<void (android::hidl::base::V1_0::DebugInfo const&)>)
+                 U android::hidl::base::V1_0::IBase::getHashChain(std::__1::function<void (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)>)
+                 U android::hidl::base::V1_0::IBase::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U android::hidl::base::V1_0::IBase::interfaceChain(std::__1::function<void (android::hardware::hidl_vec<android::hardware::hidl_string> const&)>)
+                 U android::hidl::base::V1_0::IBase::interfaceDescriptor(std::__1::function<void (android::hardware::hidl_string const&)>)
+                 U android::hidl::base::V1_0::IBase::notifySyspropsChanged()
+                 U android::hidl::base::V1_0::IBase::setHALInstrumentation()
+                 U android::hidl::base::V1_0::IBase::ping()
+                 U android::hidl::base::V1_0::IBase::debug(android::hardware::hidl_handle const&, android::hardware::hidl_vec<android::hardware::hidl_string> const&)
+                 U android::RefBase::onFirstRef()
+                 U android::RefBase::onLastWeakRef(void const*)
+                 U android::RefBase::onLastStrongRef(void const*)
+                 U android::RefBase::onIncStrongAttempted(unsigned int, void const*)
+                 U android::RefBase::RefBase()
+                 U android::RefBase::~RefBase()
+                 U android::hardware::joinRpcThreadpool()
+                 U android::hardware::configureRpcThreadpool(unsigned long, bool)
+                 U android::hardware::details::return_status::~return_status()
+                 U PowerCore::pmInstance
+                 U PowerCore::sendEvent(unsigned int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, int, int)
+                 U PowerCore::PowerCore()
+                 U android::RefBase::decStrong(void const*) const
+                 U android::RefBase::incStrong(void const*) const
+                 U android::hardware::hidl_string::operator std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >() const
+0000000000005238 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::qti::hardware::perf::V2_1::implementation::PowerCallback
+0000000000005138 D construction vtable for vendor::qti::hardware::perf::V2_1::IPerfCallback-in-vendor::qti::hardware::perf::V2_1::implementation::PowerCallback
+0000000000005008 D VTT for vendor::qti::hardware::perf::V2_1::implementation::PowerCallback
+0000000000005038 D vtable for vendor::qti::hardware::perf::V2_1::implementation::PowerCallback
+0000000000004328 T virtual thunk to vendor::qti::hardware::perf::V2_1::implementation::PowerCallback::~PowerCallback()
+0000000000004314 T virtual thunk to vendor::qti::hardware::perf::V2_1::implementation::PowerCallback::~PowerCallback()
+0000000000001de0 V android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback>::check_not_on_stack(void const*)::MIN_PAGE_MASK
+0000000000001dd8 V android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback>::check_not_on_stack(void const*)::MIN_PAGE_SIZE
+                 U operator delete(void*)
+                 U operator new(unsigned long)
+0000000000004000 T __cfi_check
+                 U __cfi_slowpath
+                 U __cxa_finalize
+                 U __cxa_pure_virtual
+                 U __stack_chk_fail
+                 U abort
+00000000000043e0 T main

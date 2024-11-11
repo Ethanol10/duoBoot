@@ -1,0 +1,351 @@
+                 U vendor::qti::hardware::perf::V2_0::IPerf::descriptor
+                 U vendor::qti::hardware::perf::V2_0::IPerf::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::qti::hardware::perf::V2_0::IPerf::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::qti::hardware::perf::V2_0::IPerf::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::qti::hardware::perf::V2_0::IPerf::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::qti::hardware::perf::V2_0::IPerf::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::qti::hardware::perf::V2_0::IPerf::interfaceDescriptor() generates (string)
+                 U vendor::qti::hardware::perf::V2_0::IPerf::notifySyspropsChanged()
+                 U vendor::qti::hardware::perf::V2_0::IPerf::setHALInstrumentation()
+                 U vendor::qti::hardware::perf::V2_0::IPerf::ping()
+                 U vendor::qti::hardware::perf::V2_0::IPerf::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::qti::hardware::perf::V2_0::BnHwPerf::_hidl_perfHint(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::qti::hardware::perf::V2_0::BnHwPerf::_hidl_perfGetProp(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::qti::hardware::perf::V2_0::BnHwPerf::_hidl_perfLockCmd(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::qti::hardware::perf::V2_0::BnHwPerf::_hidl_perfProfile(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::qti::hardware::perf::V2_0::BnHwPerf::_hidl_perfSetProp(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::qti::hardware::perf::V2_0::BnHwPerf::_hidl_perfLockAcquire(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::qti::hardware::perf::V2_0::BnHwPerf::_hidl_perfLockRelease(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::qti::hardware::perf::V2_0::BnHwPerf::_hidl_perfSyncRequest(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::qti::hardware::perf::V2_0::BnHwPerf::_hidl_perfAsyncRequest(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::qti::hardware::perf::V2_0::BpHwPerf::_hidl_perfHint(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, unsigned int, string, int, int, vec<int>)
+                 U vendor::qti::hardware::perf::V2_0::BpHwPerf::_hidl_perfGetProp(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, string, string) generates (string)
+                 U vendor::qti::hardware::perf::V2_0::BpHwPerf::_hidl_perfLockCmd(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, int, int)
+                 U vendor::qti::hardware::perf::V2_0::BpHwPerf::_hidl_perfProfile(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, int, int, int)
+                 U vendor::qti::hardware::perf::V2_0::BpHwPerf::_hidl_perfSetProp(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, string, string)
+                 U vendor::qti::hardware::perf::V2_0::BpHwPerf::_hidl_perfLockAcquire(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, int, unsigned int, vec<int>, vec<int>)
+                 U vendor::qti::hardware::perf::V2_0::BpHwPerf::_hidl_perfLockRelease(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, int, vec<int>)
+                 U vendor::qti::hardware::perf::V2_0::BpHwPerf::_hidl_perfSyncRequest(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, int, string, vec<int>) generates (string)
+                 U vendor::qti::hardware::perf::V2_0::BpHwPerf::_hidl_perfAsyncRequest(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, int, string, vec<int>)
+                 U vendor::qti::hardware::perf::V2_1::IPerf::descriptor
+                 U vendor::qti::hardware::perf::V2_1::IPerf::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U vendor::qti::hardware::perf::V2_1::IPerf::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U vendor::qti::hardware::perf::V2_1::IPerf::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U vendor::qti::hardware::perf::V2_1::IPerf::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U vendor::qti::hardware::perf::V2_1::IPerf::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U vendor::qti::hardware::perf::V2_1::IPerf::interfaceDescriptor() generates (string)
+                 U vendor::qti::hardware::perf::V2_1::IPerf::notifySyspropsChanged()
+                 U vendor::qti::hardware::perf::V2_1::IPerf::setHALInstrumentation()
+                 U vendor::qti::hardware::perf::V2_1::IPerf::ping()
+                 U vendor::qti::hardware::perf::V2_1::IPerf::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U vendor::qti::hardware::perf::V2_1::BnHwPerf::_hidl_perfCallbackRegister(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::qti::hardware::perf::V2_1::BnHwPerf::_hidl_perfCallbackDeregister(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+                 U vendor::qti::hardware::perf::V2_1::BpHwPerf::_hidl_perfCallbackRegister(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback> const&, int)
+                 U vendor::qti::hardware::perf::V2_1::BpHwPerf::_hidl_perfCallbackDeregister(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback> const&, int)
+00000000000211d0 D vendor::qti::hardware::perf::V2_2::IPerf::descriptor
+000000000001cbac T vendor::qti::hardware::perf::V2_2::IPerf::getService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+000000000001467c T vendor::qti::hardware::perf::V2_2::IPerf::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+00000000000146ac T vendor::qti::hardware::perf::V2_2::IPerf::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+0000000000014550 T vendor::qti::hardware::perf::V2_2::IPerf::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+000000000001cba8 T vendor::qti::hardware::perf::V2_2::IPerf::tryGetService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+000000000001475c T vendor::qti::hardware::perf::V2_2::IPerf::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+00000000000142d0 T vendor::qti::hardware::perf::V2_2::IPerf::interfaceChain() generates (vec<android::hardware::hidl_string>)
+000000000001bb3c T vendor::qti::hardware::perf::V2_2::IPerf::registerAsService(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00000000000144bc T vendor::qti::hardware::perf::V2_2::IPerf::interfaceDescriptor() generates (string)
+0000000000014730 T vendor::qti::hardware::perf::V2_2::IPerf::notifySyspropsChanged()
+000000000001466c T vendor::qti::hardware::perf::V2_2::IPerf::setHALInstrumentation()
+000000000001cbb0 T vendor::qti::hardware::perf::V2_2::IPerf::registerForNotifications(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, android::sp<android::hidl::manager::V1_0::IServiceNotification> const&)
+000000000001469c T vendor::qti::hardware::perf::V2_2::IPerf::ping()
+00000000000144ac T vendor::qti::hardware::perf::V2_2::IPerf::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+000000000001cb80 T vendor::qti::hardware::perf::V2_2::IPerf::castFrom(android::sp<vendor::qti::hardware::perf::V2_0::IPerf> const&, bool)
+000000000001cb48 T vendor::qti::hardware::perf::V2_2::IPerf::castFrom(android::sp<vendor::qti::hardware::perf::V2_1::IPerf> const&, bool)
+000000000001cb90 T vendor::qti::hardware::perf::V2_2::IPerf::castFrom(android::sp<android::hidl::base::V1_0::IBase> const&, bool)
+000000000001cb40 T vendor::qti::hardware::perf::V2_2::IPerf::castFrom(android::sp<vendor::qti::hardware::perf::V2_2::IPerf> const&, bool)
+0000000000012f44 T vendor::qti::hardware::perf::V2_2::BsPerf::addOnewayTask() generates ()
+000000000000fc10 T vendor::qti::hardware::perf::V2_2::BsPerf::BsPerf(android::sp<vendor::qti::hardware::perf::V2_2::IPerf>)
+000000000001b624 T vendor::qti::hardware::perf::V2_2::BsPerf::BsPerf(android::sp<vendor::qti::hardware::perf::V2_2::IPerf>)
+0000000000015368 T vendor::qti::hardware::perf::V2_2::BnHwPerf::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+000000000001b580 T vendor::qti::hardware::perf::V2_2::BnHwPerf::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+000000000001cb14 T vendor::qti::hardware::perf::V2_2::BnHwPerf::_hidl_perfEvent(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+000000000001cb18 T vendor::qti::hardware::perf::V2_2::BnHwPerf::_hidl_perfGetFeedback(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+000000000001cb10 T vendor::qti::hardware::perf::V2_2::BnHwPerf::_hidl_perfLockAcqAndRelease(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*) generates (android::hardware::Parcel&)
+000000000001b570 T vendor::qti::hardware::perf::V2_2::BnHwPerf::ping()
+0000000000014e40 T vendor::qti::hardware::perf::V2_2::BnHwPerf::BnHwPerf(android::sp<vendor::qti::hardware::perf::V2_2::IPerf> const&)
+000000000001b1bc T vendor::qti::hardware::perf::V2_2::BnHwPerf::BnHwPerf(android::sp<vendor::qti::hardware::perf::V2_2::IPerf> const&)
+0000000000015334 T vendor::qti::hardware::perf::V2_2::BnHwPerf::~BnHwPerf()
+0000000000015308 T vendor::qti::hardware::perf::V2_2::BnHwPerf::~BnHwPerf()
+00000000000166b4 T vendor::qti::hardware::perf::V2_2::BnHwPerf::~BnHwPerf()
+00000000000183d4 T vendor::qti::hardware::perf::V2_2::BpHwPerf::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+0000000000018fc8 T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfGetProp(string, string) generates (string)
+0000000000018fa4 T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfLockCmd(int, int)
+0000000000018f7c T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfProfile(int, int, int)
+00000000000190d0 T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfSetProp(string, string)
+0000000000018874 T vendor::qti::hardware::perf::V2_2::BpHwPerf::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+00000000000182c8 T vendor::qti::hardware::perf::V2_2::BpHwPerf::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+0000000000018980 T vendor::qti::hardware::perf::V2_2::BpHwPerf::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+00000000000180c4 T vendor::qti::hardware::perf::V2_2::BpHwPerf::interfaceChain() generates (vec<android::hardware::hidl_string>)
+000000000001cb70 T vendor::qti::hardware::perf::V2_2::BpHwPerf::_hidl_perfEvent(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, unsigned int, string, vec<int>)
+0000000000019344 T vendor::qti::hardware::perf::V2_2::BpHwPerf::onLastStrongRef(void const*)
+00000000000192b8 T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfGetFeedback(unsigned int, string, vec<int>)
+0000000000018efc T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfLockAcquire(int, unsigned int, vec<int>, vec<int>)
+0000000000018f28 T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfLockRelease(int, vec<int>)
+000000000001911c T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfSyncRequest(int, string, vec<int>) generates (string)
+00000000000190f4 T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfAsyncRequest(int, string, vec<int>)
+00000000000181d8 T vendor::qti::hardware::perf::V2_2::BpHwPerf::interfaceDescriptor() generates (string)
+000000000001922c T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfCallbackRegister(android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback> const&, int)
+000000000001cb60 T vendor::qti::hardware::perf::V2_2::BpHwPerf::_hidl_perfGetFeedback(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, unsigned int, string, vec<int>)
+0000000000018964 T vendor::qti::hardware::perf::V2_2::BpHwPerf::notifySyspropsChanged()
+0000000000019274 T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfLockAcqAndRelease(int, unsigned int, vec<int>, vec<int>)
+00000000000183b8 T vendor::qti::hardware::perf::V2_2::BpHwPerf::setHALInstrumentation()
+0000000000019250 T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfCallbackDeregister(android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback> const&, int)
+000000000001cb78 T vendor::qti::hardware::perf::V2_2::BpHwPerf::_hidl_perfLockAcqAndRelease(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, int, unsigned int, vec<int>, vec<int>)
+0000000000018858 T vendor::qti::hardware::perf::V2_2::BpHwPerf::ping()
+00000000000181b4 T vendor::qti::hardware::perf::V2_2::BpHwPerf::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+0000000000018f4c T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfHint(unsigned int, string, int, int, vec<int>)
+0000000000019298 T vendor::qti::hardware::perf::V2_2::BpHwPerf::perfEvent(unsigned int, string, vec<int>)
+0000000000017f60 T vendor::qti::hardware::perf::V2_2::BpHwPerf::BpHwPerf(android::sp<android::hardware::IBinder> const&)
+000000000001b03c T vendor::qti::hardware::perf::V2_2::BpHwPerf::BpHwPerf(android::sp<android::hardware::IBinder> const&)
+                 U android::sp_report_race()
+                 U android::report_sysprop_change()
+                 U android::sp_report_stack_pointer()
+0000000000013900 W android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback>::operator=(android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback>&&)
+00000000000139b4 W android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback>::operator=(android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback> const&)
+00000000000151f4 W android::sp<vendor::qti::hardware::perf::V2_2::IPerf>::operator=(android::sp<vendor::qti::hardware::perf::V2_2::IPerf> const&)
+000000000001a16c W android::sp<android::hardware::ProcessState>::~sp()
+000000000001a0b8 W android::sp<android::hardware::hidl_binder_death_recipient>::operator=(android::sp<android::hardware::hidl_binder_death_recipient>&&)
+                 U android::hidl::base::V1_0::IBase::descriptor
+                 U android::hidl::base::V1_0::IBase::linkToDeath(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long)
+                 U android::hidl::base::V1_0::IBase::getDebugInfo() generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U android::hidl::base::V1_0::IBase::getHashChain() generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U android::hidl::base::V1_0::IBase::unlinkToDeath(android::sp<android::hardware::hidl_death_recipient> const&)
+                 U android::hidl::base::V1_0::IBase::interfaceChain() generates (vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::IBase::interfaceDescriptor() generates (string)
+                 U android::hidl::base::V1_0::IBase::notifySyspropsChanged()
+                 U android::hidl::base::V1_0::IBase::setHALInstrumentation()
+                 U android::hidl::base::V1_0::IBase::ping()
+                 U android::hidl::base::V1_0::IBase::debug(android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::BnHwBase::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+                 U android::hidl::base::V1_0::BnHwBase::BnHwBase(android::sp<android::hidl::base::V1_0::IBase> const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_ping(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_debug(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*, android::hardware::hidl_handle const&, vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_getDebugInfo(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (android::hidl::base::V1_0::DebugInfo const&)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_getHashChain(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_interfaceChain(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (vec<android::hardware::hidl_string>)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_interfaceDescriptor(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*) generates (string)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_notifySyspropsChanged(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*)
+                 U android::hidl::base::V1_0::BpHwBase::_hidl_setHALInstrumentation(android::hardware::IInterface*, android::hardware::details::HidlInstrumentor*)
+                 U android::RefBase::onFirstRef()
+                 U android::RefBase::weakref_type::decWeak(void const*)
+                 U android::RefBase::onLastWeakRef(void const*)
+                 U android::RefBase::onLastStrongRef(void const*)
+                 U android::RefBase::onIncStrongAttempted(unsigned int, void const*)
+                 U android::RefBase::RefBase()
+                 U android::RefBase::~RefBase()
+                 U android::hardware::IInterface::asBinder(android::hardware::IInterface const*)
+                 U android::hardware::IInterface::IInterface()
+                 U android::hardware::IInterface::~IInterface()
+                 U android::hardware::IInterface::~IInterface()
+                 U android::hardware::IInterface::~IInterface()
+                 U android::hardware::BpHwRefBase::onFirstRef()
+                 U android::hardware::BpHwRefBase::onLastStrongRef(void const*)
+                 U android::hardware::BpHwRefBase::onIncStrongAttempted(unsigned int, void const*)
+                 U android::hardware::BpHwRefBase::BpHwRefBase(android::sp<android::hardware::IBinder> const&)
+                 U android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U android::hardware::hidl_string::hidl_string(char const*)
+                 U android::hardware::hidl_string::hidl_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hardware::hidl_string::hidl_string(string)
+                 U android::hardware::hidl_string::hidl_string()
+                 U android::hardware::hidl_string::~hidl_string()
+                 U android::hardware::hidl_string::operator=(string)
+                 U android::hardware::ProcessState::startThreadPool()
+                 U android::hardware::ProcessState::self()
+                 U android::hardware::writeToParcel(android::hardware::Status const&, android::hardware::Parcel*)
+                 U android::hardware::readFromParcel(android::hardware::Status*, android::hardware::Parcel const&)
+                 U android::hardware::getRequestingSid(android::sp<android::hidl::base::V1_0::IBase> const&)
+                 U android::hardware::defaultServiceManager()
+                 U android::hardware::getMinSchedulerPolicy(android::sp<android::hidl::base::V1_0::IBase> const&)
+                 U android::hardware::writeEmbeddedToParcel(string, android::hardware::Parcel*, unsigned long, unsigned long)
+000000000001cb68 W int android::hardware::writeEmbeddedToParcel<int>(vec<int>, android::hardware::Parcel*, unsigned long, unsigned long, unsigned long*)
+                 U android::hardware::readEmbeddedFromParcel(string, android::hardware::Parcel const&, unsigned long, unsigned long)
+000000000001cb20 W int android::hardware::readEmbeddedFromParcel<int>(vec<int>, android::hardware::Parcel const&, unsigned long, unsigned long, unsigned long*)
+                 U android::hardware::getOrCreateCachedBinder(android::hidl::base::V1_0::IBase*)
+                 U android::hardware::hidl_binder_death_recipient::getRecipient()
+                 U android::hardware::hidl_binder_death_recipient::hidl_binder_death_recipient(android::sp<android::hardware::hidl_death_recipient> const&, unsigned long, android::sp<android::hidl::base::V1_0::IBase> const&)
+                 U android::hardware::Parcel::writeInt32(int)
+                 U android::hardware::Parcel::writeBuffer(void const*, unsigned long, unsigned long*)
+                 U android::hardware::Parcel::writeUint32(unsigned int)
+                 U android::hardware::Parcel::writeEmbeddedBuffer(void const*, unsigned long, unsigned long*, unsigned long, unsigned long)
+                 U android::hardware::Parcel::writeInterfaceToken(char const*)
+                 U android::hardware::Parcel::Parcel()
+                 U android::hardware::Parcel::~Parcel()
+                 U android::hardware::Status::setFromStatusT(int)
+                 U android::hardware::Status::fromExceptionCode(int)
+                 U android::hardware::Status::fromExceptionCode(int, char const*)
+                 U android::hardware::Status::ok()
+                 U android::hardware::IBinder::localBinder()
+                 U android::hardware::IBinder::remoteBinder()
+                 U android::hardware::IBinder::~IBinder()
+                 U android::hardware::IBinder::~IBinder()
+                 U android::hardware::details::TaskRunner::push(std::__1::function<void ()> const&)
+                 U android::hardware::details::TaskRunner::start(unsigned long)
+                 U android::hardware::details::TaskRunner::TaskRunner()
+                 U android::hardware::details::TaskRunner::~TaskRunner()
+                 U android::hardware::details::debuggable()
+000000000001cb88 W android::hardware::Return<android::sp<vendor::qti::hardware::perf::V2_2::IPerf> > android::hardware::details::castInterface<vendor::qti::hardware::perf::V2_2::IPerf, vendor::qti::hardware::perf::V2_0::IPerf, vendor::qti::hardware::perf::V2_2::BpHwPerf>(android::sp<vendor::qti::hardware::perf::V2_0::IPerf>, char const*, bool)
+000000000001cb50 W android::hardware::Return<android::sp<vendor::qti::hardware::perf::V2_2::IPerf> > android::hardware::details::castInterface<vendor::qti::hardware::perf::V2_2::IPerf, vendor::qti::hardware::perf::V2_1::IPerf, vendor::qti::hardware::perf::V2_2::BpHwPerf>(android::sp<vendor::qti::hardware::perf::V2_1::IPerf>, char const*, bool)
+000000000001cb98 W android::hardware::Return<android::sp<vendor::qti::hardware::perf::V2_2::IPerf> > android::hardware::details::castInterface<vendor::qti::hardware::perf::V2_2::IPerf, android::hidl::base::V1_0::IBase, vendor::qti::hardware::perf::V2_2::BpHwPerf>(android::sp<android::hidl::base::V1_0::IBase>, char const*, bool)
+                 U android::hardware::details::return_status::~return_status()
+                 U android::hardware::details::return_status::operator=(android::hardware::details::return_status&&)
+                 U android::hardware::details::logAlwaysFatal(char const*)
+000000000001cb08 W android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback> android::hardware::details::wrapPassthrough<vendor::qti::hardware::perf::V2_1::IPerfCallback, void>(android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback>)
+                 U android::hardware::details::HidlInstrumentor::configureInstrumentation(bool)
+                 U android::hardware::details::HidlInstrumentor::HidlInstrumentor(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hardware::details::HidlInstrumentor::~HidlInstrumentor()
+                 U android::hardware::details::canCastInterface(android::hidl::base::V1_0::IBase*, char const*, bool)
+                 U android::hardware::details::getPidIfSharable()
+000000000001cba0 W android::sp<vendor::qti::hardware::perf::V2_2::IPerf> android::hardware::details::getServiceInternal<vendor::qti::hardware::perf::V2_2::BpHwPerf, vendor::qti::hardware::perf::V2_2::IPerf, void, void>(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+                 U android::hardware::details::getBnConstructorMap()
+                 U android::hardware::details::getBsConstructorMap()
+                 U android::hardware::details::getRawServiceInternal(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool, bool)
+                 U android::hardware::details::wrapPassthroughInternal(android::sp<android::hidl::base::V1_0::IBase>)
+                 U android::hardware::details::registerAsServiceInternal(android::sp<android::hidl::base::V1_0::IBase> const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+                 U android::hardware::details::gBnMap
+000000000001cb58 W android::hardware::Return<android::sp<vendor::qti::hardware::perf::V2_2::IPerf> > android::hardware::details::StatusOf<bool, android::sp<vendor::qti::hardware::perf::V2_2::IPerf> >(android::hardware::Return<bool> const&)
+                 U android::hardware::BHwBinder::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+                 U android::hardware::BHwBinder::linkToDeath(android::sp<android::hardware::IBinder::DeathRecipient> const&, void*, unsigned int)
+                 U android::hardware::BHwBinder::localBinder()
+                 U android::hardware::BHwBinder::attachObject(void const*, void*, void*, void (*)(void const*, void*, void*))
+                 U android::hardware::BHwBinder::detachObject(void const*)
+                 U android::hardware::BHwBinder::unlinkToDeath(android::wp<android::hardware::IBinder::DeathRecipient> const&, void*, unsigned int, android::wp<android::hardware::IBinder::DeathRecipient>*)
+                 U android::hardware::BHwBinder::setRequestingSid(bool)
+                 U android::hardware::BHwBinder::transact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int) generates (android::hardware::Parcel&)
+                 U android::hardware::BHwBinder::~BHwBinder()
+                 U android::hardware::BHwBinder::~BHwBinder()
+                 U android::hidl::base::V1_0::BnHwBase::checkSubclass(void const*) const
+                 U android::RefBase::createWeak(void const*) const
+                 U android::RefBase::getWeakRefs() const
+                 U android::RefBase::decStrong(void const*) const
+                 U android::RefBase::incStrong(void const*) const
+                 U android::hardware::Parcel::readBuffer(unsigned long, unsigned long*, void const**) const
+                 U android::hardware::Parcel::readUint32(unsigned int*) const
+                 U android::hardware::Parcel::enforceInterface(char const*) const
+                 U android::hardware::Parcel::readNullableEmbeddedBuffer(unsigned long, unsigned long*, unsigned long, unsigned long, void const**) const
+                 U android::hardware::Parcel::readInt32(int*) const
+                 U android::hardware::IBinder::checkSubclass(void const*) const
+                 U android::hardware::details::return_status::onValueRetrieval() const
+                 U android::hardware::details::return_status::assertOk() const
+                 U android::hardware::BHwBinder::findObject(void const*) const
+                 U std::__1::__vector_base_common<true>::__throw_length_error() const
+                 U std::__1::__basic_string_common<true>::__throw_length_error() const
+000000000001a40c W std::__1::vector<android::sp<android::hardware::hidl_binder_death_recipient>, std::__1::allocator<android::sp<android::hardware::hidl_binder_death_recipient> > >::max_size() const
+00000000000140e8 W std::__1::function<void (android::hidl::base::V1_0::DebugInfo const&)>::operator()(android::hidl::base::V1_0::DebugInfo const&) const
+0000000000013b6c W std::__1::function<void (string)>::operator()(string) const
+0000000000014164 W std::__1::function<void (android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&)>::operator()(android::hardware::hidl_vec<android::hardware::hidl_array<unsigned char, 32ul> > const&) const
+0000000000014238 W std::__1::function<void (vec<android::hardware::hidl_string>)>::operator()(vec<android::hardware::hidl_string>) const
+0000000000016690 W std::__1::function<void (android::hardware::Parcel&)>::operator()(android::hardware::Parcel&) const
+000000000001cb30 W std::__1::__tree_node_base<void*>* std::__1::__tree_next<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)
+                 U std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000000000001cb2c W void std::__1::__tree_remove<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+000000000001cb00 W void std::__1::__tree_left_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)
+000000000001cb04 W void std::__1::__tree_right_rotate<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*)
+000000000001cb28 W void std::__1::__tree_balance_after_insert<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+000000000000f32c W std::__1::map<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)>, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::operator[](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+000000000001477c W std::__1::map<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)>, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::allocator<std::__1::pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::operator[](std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&)
+                 U std::__1::mutex::lock()
+                 U std::__1::mutex::unlock()
+                 U std::__1::mutex::~mutex()
+000000000000f5d0 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::__find_equal<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00000000000171f4 W std::__1::__tree_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, void*>*, long> std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::__lower_bound<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, void*>*, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*)
+0000000000016e90 W unsigned long std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::__erase_unique<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000000000000f6f0 W std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, void*> > > > std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::__construct_node<std::__1::piecewise_construct_t const&, std::__1::tuple<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&>, std::__1::tuple<> >(std::__1::piecewise_construct_t const&, std::__1::tuple<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&>&&, std::__1::tuple<>&&)
+000000000000f758 W std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::__insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)
+000000000000f414 W std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, void*>*, long>, bool> std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::__emplace_unique_key_args<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::piecewise_construct_t const&, std::__1::tuple<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&>, std::__1::tuple<> >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::piecewise_construct_t const&, std::__1::tuple<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&>&&, std::__1::tuple<>&&)
+0000000000016fdc W std::__1::__tree_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, void*>*, long> std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::find<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000000000017118 W std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> > > >::erase(std::__1::__tree_const_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)> >, void*>*, long>)
+0000000000014a20 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::__find_equal<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000000000017610 W std::__1::__tree_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, void*>*, long> std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::__lower_bound<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, void*>*, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*)
+00000000000172ac W unsigned long std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::__erase_unique<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000000000014b40 W std::__1::unique_ptr<std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, void*>, std::__1::__tree_node_destructor<std::__1::allocator<std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, void*> > > > std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::__construct_node<std::__1::piecewise_construct_t const&, std::__1::tuple<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&>, std::__1::tuple<> >(std::__1::piecewise_construct_t const&, std::__1::tuple<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&>&&, std::__1::tuple<>&&)
+0000000000014ba8 W std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::__insert_node_at(std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*, std::__1::__tree_node_base<void*>*&, std::__1::__tree_node_base<void*>*)
+0000000000014864 W std::__1::pair<std::__1::__tree_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, void*>*, long>, bool> std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::__emplace_unique_key_args<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::piecewise_construct_t const&, std::__1::tuple<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&>, std::__1::tuple<> >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::piecewise_construct_t const&, std::__1::tuple<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&&>&&, std::__1::tuple<>&&)
+00000000000173f8 W std::__1::__tree_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, void*>*, long> std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::find<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000000000017534 W std::__1::__tree<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__map_value_compare<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::less<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, true>, std::__1::allocator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> > > >::erase(std::__1::__tree_const_iterator<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, std::__1::__tree_node<std::__1::__value_type<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::function<android::sp<android::hardware::IBinder> (void*)> >, void*>*, long>)
+0000000000016d98 W std::__1::__tree_iterator<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, std::__1::__tree_node<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, void*>*, long> std::__1::__tree<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, std::__1::__map_value_compare<android::hidl::base::V1_0::IBase const*, std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, std::__1::less<android::hidl::base::V1_0::IBase const*>, true>, std::__1::allocator<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> > > >::__lower_bound<android::hidl::base::V1_0::IBase const*>(android::hidl::base::V1_0::IBase const* const&, std::__1::__tree_node<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, void*>*, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*)
+0000000000016d54 W std::__1::__tree_iterator<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, std::__1::__tree_node<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, void*>*, long> std::__1::__tree<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, std::__1::__map_value_compare<android::hidl::base::V1_0::IBase const*, std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, std::__1::less<android::hidl::base::V1_0::IBase const*>, true>, std::__1::allocator<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> > > >::find<android::hidl::base::V1_0::IBase const*>(android::hidl::base::V1_0::IBase const* const&)
+000000000001689c W std::__1::__tree<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, std::__1::__map_value_compare<android::hidl::base::V1_0::IBase const*, std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, std::__1::less<android::hidl::base::V1_0::IBase const*>, true>, std::__1::allocator<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> > > >::erase(std::__1::__tree_const_iterator<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, std::__1::__tree_node<std::__1::__value_type<android::hidl::base::V1_0::IBase const*, android::wp<android::hardware::BHwBinder> >, void*>*, long>)
+000000000001a1fc W void std::__1::vector<android::sp<android::hardware::hidl_binder_death_recipient>, std::__1::allocator<android::sp<android::hardware::hidl_binder_death_recipient> > >::__push_back_slow_path<android::sp<android::hardware::hidl_binder_death_recipient> >(android::sp<android::hardware::hidl_binder_death_recipient>&&)
+000000000001a3a4 W std::__1::vector<android::sp<android::hardware::hidl_binder_death_recipient>, std::__1::allocator<android::sp<android::hardware::hidl_binder_death_recipient> > >::__swap_out_circular_buffer(std::__1::__split_buffer<android::sp<android::hardware::hidl_binder_death_recipient>, std::__1::allocator<android::sp<android::hardware::hidl_binder_death_recipient> >&>&)
+000000000000f388 W std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)>::operator=(std::__1::function<android::sp<android::hidl::base::V1_0::IBase> (void*)>&&)
+00000000000147d8 W std::__1::function<android::sp<android::hardware::IBinder> (void*)>::operator=(std::__1::function<android::sp<android::hardware::IBinder> (void*)>&&)
+000000000001f7f8 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::qti::hardware::perf::V2_2::IPerf
+000000000001f5b8 D construction vtable for vendor::qti::hardware::perf::V2_0::IPerf-in-vendor::qti::hardware::perf::V2_2::IPerf
+000000000001f338 D construction vtable for vendor::qti::hardware::perf::V2_1::IPerf-in-vendor::qti::hardware::perf::V2_2::IPerf
+000000000001e4f8 D construction vtable for android::hidl::base::V1_0::BnHwBase-in-vendor::qti::hardware::perf::V2_2::BnHwPerf
+000000000001ec58 D construction vtable for android::hardware::IBinder-in-vendor::qti::hardware::perf::V2_2::BnHwPerf
+000000000001e5f8 D construction vtable for android::hardware::BHwBinder-in-vendor::qti::hardware::perf::V2_2::BnHwPerf
+000000000001f6f8 D construction vtable for android::hidl::base::V1_0::IBase-in-vendor::qti::hardware::perf::V2_2::BpHwPerf
+000000000001e8f8 D construction vtable for android::hardware::BpInterface<vendor::qti::hardware::perf::V2_2::IPerf>-in-vendor::qti::hardware::perf::V2_2::BpHwPerf
+000000000001f478 D construction vtable for vendor::qti::hardware::perf::V2_0::IPerf-in-vendor::qti::hardware::perf::V2_2::BpHwPerf
+000000000001f1f8 D construction vtable for vendor::qti::hardware::perf::V2_1::IPerf-in-vendor::qti::hardware::perf::V2_2::BpHwPerf
+000000000001ed38 D construction vtable for vendor::qti::hardware::perf::V2_2::IPerf-in-vendor::qti::hardware::perf::V2_2::BpHwPerf
+000000000001eb78 D construction vtable for android::hardware::BpHwRefBase-in-vendor::qti::hardware::perf::V2_2::BpHwPerf
+000000000001ead8 D construction vtable for android::hardware::IInterface-in-vendor::qti::hardware::perf::V2_2::BpHwPerf
+000000000001e0e8 D VTT for vendor::qti::hardware::perf::V2_2::IPerf
+000000000001e008 D VTT for vendor::qti::hardware::perf::V2_2::BnHwPerf
+000000000001e048 D VTT for vendor::qti::hardware::perf::V2_2::BpHwPerf
+000000000001ee98 D vtable for vendor::qti::hardware::perf::V2_2::IPerf
+000000000001e3f8 D vtable for vendor::qti::hardware::perf::V2_2::BnHwPerf
+000000000001e6f8 D vtable for vendor::qti::hardware::perf::V2_2::BpHwPerf
+0000000000019544 T non-virtual thunk to vendor::qti::hardware::perf::V2_2::BpHwPerf::onLastStrongRef(void const*)
+0000000000015ae8 T non-virtual thunk to vendor::qti::hardware::perf::V2_2::BnHwPerf::~BnHwPerf()
+0000000000015ab8 T non-virtual thunk to vendor::qti::hardware::perf::V2_2::BnHwPerf::~BnHwPerf()
+0000000000015b5c T virtual thunk to vendor::qti::hardware::perf::V2_2::BnHwPerf::~BnHwPerf()
+0000000000015b24 T virtual thunk to vendor::qti::hardware::perf::V2_2::BnHwPerf::~BnHwPerf()
+                 U virtual thunk to android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U virtual thunk to android::hidl::base::V1_0::BnHwBase::~BnHwBase()
+                 U virtual thunk to android::hardware::IInterface::~IInterface()
+                 U virtual thunk to android::hardware::IInterface::~IInterface()
+                 U virtual thunk to android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U virtual thunk to android::hardware::BpHwRefBase::~BpHwRefBase()
+                 U virtual thunk to android::hardware::IBinder::~IBinder()
+                 U virtual thunk to android::hardware::IBinder::~IBinder()
+                 U virtual thunk to android::hardware::BHwBinder::~BHwBinder()
+                 U virtual thunk to android::hardware::BHwBinder::~BHwBinder()
+                 U virtual thunk to android::hardware::BpHwRefBase::onFirstRef()
+00000000000195bc T virtual thunk to vendor::qti::hardware::perf::V2_2::BpHwPerf::onLastStrongRef(void const*)
+                 U virtual thunk to android::hardware::BpHwRefBase::onLastStrongRef(void const*)
+                 U virtual thunk to android::hardware::BpHwRefBase::onIncStrongAttempted(unsigned int, void const*)
+000000000000c708 V android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback>::check_not_on_stack(void const*)::MIN_PAGE_MASK
+000000000000c700 V android::sp<vendor::qti::hardware::perf::V2_1::IPerfCallback>::check_not_on_stack(void const*)::MIN_PAGE_SIZE
+000000000000c6b8 V android::sp<vendor::qti::hardware::perf::V2_2::IPerf>::check_not_on_stack(void const*)::MIN_PAGE_MASK
+000000000000c6b0 V android::sp<vendor::qti::hardware::perf::V2_2::IPerf>::check_not_on_stack(void const*)::MIN_PAGE_SIZE
+000000000000c6d8 V android::sp<android::hidl::base::V1_0::IBase>::check_not_on_stack(void const*)::MIN_PAGE_MASK
+000000000000c6d0 V android::sp<android::hidl::base::V1_0::IBase>::check_not_on_stack(void const*)::MIN_PAGE_SIZE
+000000000000c6e8 V android::sp<android::hardware::hidl_binder_death_recipient>::check_not_on_stack(void const*)::MIN_PAGE_MASK
+000000000000c6e0 V android::sp<android::hardware::hidl_binder_death_recipient>::check_not_on_stack(void const*)::MIN_PAGE_SIZE
+000000000000c6f8 V android::sp<android::hardware::IBinder::DeathRecipient>::check_not_on_stack(void const*)::MIN_PAGE_MASK
+000000000000c6f0 V android::sp<android::hardware::IBinder::DeathRecipient>::check_not_on_stack(void const*)::MIN_PAGE_SIZE
+000000000000c6c8 V android::sp<android::hardware::IBinder>::check_not_on_stack(void const*)::MIN_PAGE_MASK
+000000000000c6c0 V android::sp<android::hardware::IBinder>::check_not_on_stack(void const*)::MIN_PAGE_SIZE
+                 U operator delete[](void*)
+                 U operator delete(void*)
+                 U operator new[](unsigned long)
+                 U operator new(unsigned long)
+000000000001c000 T __cfi_check
+                 U __cfi_slowpath
+                 U __cxa_finalize
+                 U __cxa_pure_virtual
+                 U __stack_chk_fail
+                 U abort
+                 U atrace_begin_body
+                 U atrace_end_body
+                 U atrace_get_enabled_tags
+                 U memcmp
+                 U memcpy
+                 U memset
+                 U strlen
