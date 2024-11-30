@@ -12,7 +12,7 @@ int file_exists(const char *path) {
 }
 
 // Function to read the sysfs file
-jstring Java_com_duode_MSPenCharger_readSysfs(JNIEnv *env, jobject obj) {
+jstring Java_com_thain_duo_MSPenCharger_readSysfs(JNIEnv *env, jobject obj) {
     if (!file_exists(SYSFS_PATH)) {
         return (*env)->NewStringUTF(env, "Error: File does not exist");
     }
@@ -33,7 +33,7 @@ jstring Java_com_duode_MSPenCharger_readSysfs(JNIEnv *env, jobject obj) {
 }
 
 // Function to write to the sysfs file
-void Java_com_duode_MSPenCharger_writeSysfs(JNIEnv *env, jobject obj, jstring value) {
+void Java_com_thain_duo_MSPenCharger_writeSysfs(JNIEnv *env, jobject obj, jstring value) {
     if (!file_exists(SYSFS_PATH)) {
         return; // File does not exist, so do nothing
     }
