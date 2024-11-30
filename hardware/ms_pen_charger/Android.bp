@@ -3,4 +3,5 @@ cc_library_shared {
     srcs: ["ms_pen_charger.c"],
     shared_libs: ["liblog"], // Add any required shared libraries
     sdk_version: "33",
+    include_dirs: ["frameworks/base/core/jni"],
 }
