@@ -1,0 +1,6 @@
+cc_library_shared {
+    name: "libms_pen_charger",
+    srcs: ["ms_pen_charger.c"],
+    shared_libs: ["liblog"], // Add any required shared libraries
+    sdk_version: "module_current",
+}
