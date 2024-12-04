@@ -32,6 +32,36 @@ jstring Java_com_thain_duo_MSPenCharger_readSysfs(JNIEnv *env, jobject obj) {
     return (*env)->NewStringUTF(env, buffer);
 }
 
+// Function to turn the pencharger on
+jstring Java_com_thain_duo_MSPenCharger_turnOnPenCharger(JNIEnv *env, jobject obj) {
+    if (!file_exists(SYSFS_PATH)) {
+        return (*env)->NewStringUTF(env, "Error: File does not exist");
+    }
+
+    FILE *file = fopen(SYSFS_PATH, "r");
+
+    fprintf(file, "0");
+    fclose(file);
+
+    fclose(file);
+    return (*env)->NewStringUTF(env, buffer);
+}
+
+// Function to turn the pencharger off
+jstring Java_com_thain_duo_MSPenCharger_turnOffPenCharger(JNIEnv *env, jobject obj) {
+    if (!file_exists(SYSFS_PATH)) {
+        return (*env)->NewStringUTF(env, "Error: File does not exist");
+    }
+
+    FILE *file = fopen(SYSFS_PATH, "r");
+
+    fprintf(file, "1");
+    fclose(file);
+
+    fclose(file);
+    return (*env)->NewStringUTF(env, buffer);
+}
+
 // Function to write to the sysfs file
 void Java_com_thain_duo_MSPenCharger_writeSysfs(JNIEnv *env, jobject obj, jstring value) {
     if (!file_exists(SYSFS_PATH)) {
