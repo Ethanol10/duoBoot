@@ -3,4 +3,12 @@ package vendor.surface.displaytopology@1.2;
 import @1.1::IDisplayTopology;
 
 interface IDisplayTopology extends @1.1::IDisplayTopology {
+
+    getExternalModeHint() generates (int32_t hint);
+
+    setExternalModelHint(int32_t hint);
+
+    getLayoutState() generates (int32_t layoutState);
+
+    setLayoutState(int32_t layoutState);
 };

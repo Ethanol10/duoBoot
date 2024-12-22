@@ -15,4 +15,10 @@ interface IDisplayTopology {
     setComposition(DisplayComposition mode) generates (int32_t error);
 
     getComposition() generates (DisplayComposition mode);
+
+    setBezelSize(int32_t i) generates (int32_t error);
+
+    getBezelSize() generates (int32_t bezelSize);
+
+    getBezelDefaultSize() generates (int32_t bezelSize);
 };
