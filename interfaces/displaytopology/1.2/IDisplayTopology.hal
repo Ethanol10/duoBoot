@@ -6,7 +6,7 @@ interface IDisplayTopology extends @1.1::IDisplayTopology {
 
     getExternalModeHint() generates (int32_t hint);
 
-    setExternalModelHint(int32_t hint);
+    setExternalModeHint(int32_t hint);
 
     getLayoutState() generates (int32_t layoutState);
 
