@@ -3,6 +3,16 @@ package vendor.surface.displaytopology@1.2;
 import @1.1::IDisplayTopology;
 
 interface IDisplayTopology extends @1.1::IDisplayTopology {
+    enum LayoutState: int32_t {
+        ENTRY1,
+        ENTRY2,
+        ENTRY3,
+        ENTRY4,
+        ENTRY5,
+        ENTRY6,
+        ENTRY7,
+        ENTRY8
+    }
 
     getExternalModeHint() generates (int32_t hint);
 
@@ -13,4 +23,4 @@ interface IDisplayTopology extends @1.1::IDisplayTopology {
     setLayoutState(int32_t layoutState);
 
     getBezelDefaultSize() generates (int32_t bezelSize);
-};
+};  
