@@ -19,6 +19,4 @@ interface IDisplayTopology {
     setBezelSize(int32_t i) generates (int32_t error);
 
     getBezelSize() generates (int32_t bezelSize);
-
-    getBezelDefaultSize() generates (int32_t bezelSize);
 };

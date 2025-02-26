@@ -11,4 +11,6 @@ interface IDisplayTopology extends @1.1::IDisplayTopology {
     getLayoutState() generates (int32_t layoutState);
 
     setLayoutState(int32_t layoutState);
+
+    getBezelDefaultSize() generates (int32_t bezelSize);
 };
