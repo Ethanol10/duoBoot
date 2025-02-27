@@ -4,23 +4,14 @@ import @1.1::IDisplayTopology;
 
 interface IDisplayTopology extends @1.1::IDisplayTopology {
     enum LayoutState: int32_t {
-        ENTRY1,
-        ENTRY2,
-        ENTRY3,
-        ENTRY4,
-        ENTRY5,
-        ENTRY6,
-        ENTRY7,
-        ENTRY8
+        NO_APP_RUNNING,
+        APP_WIDER_ASYNC,
+        APP_WIDER_SYNC
     }
-
-    getExternalModeHint() generates (int32_t hint);
-
-    setExternalModeHint(int32_t hint);
 
     getLayoutState() generates (int32_t layoutState);
 
     setLayoutState(int32_t layoutState);
 
     getBezelDefaultSize() generates (int32_t bezelSize);
-};  
+};
